@@ -91,7 +91,7 @@ Mohammad Shahril Osman and Mohd Zahid Abidin. The addendum must amend A5 to matc
 
 ## 8. Executive Summary
 
-*(295 words — limit 300)*
+*(298 words — limit 300)*
 
 Building exteriors in equatorial Sarawak are continuously exposed to high humidity, heavy
 rainfall and fluctuating air quality, including recurrent regional haze. Mould, algae and fungi
@@ -106,19 +106,20 @@ associated microbial communities colonising building exteriors at the UTS Sibu c
 records campus air quality and microclimate as environmental context. UTS will establish fixed
 sampling points across four buildings stratified by facade material, age, design approach and
 exposure, with paired visibly colonised and visually clean surfaces as internal controls, and
-will sample across two complete monsoon cycles. Surface swabs and settle plates will be
-cultured and quantified at UTS; isolates will be transferred to SRDC-TROPI for purification,
-DNA extraction and PCR-based identification targeting the internal transcribed spacer region.
+will sample quarterly across a full annual seasonal round, with two monsoon phases
+resampled twelve months apart. Plates inoculated at UTS are incubated, enumerated and isolated
+at SRDC-TROPI, which performs DNA extraction and PCR; sequencing of selected isolates is
+outsourced for identification against the internal transcribed spacer region.
 Algal and cyanobacterial cover will be scored at every point as a covariate, recognising these
 as pioneer colonisers that condition surfaces for fungal establishment. UTS will additionally
 deploy low-cost air-quality and microclimate monitoring with a public campus dashboard.
 
 Expected outputs are the first documented inventory of facade-colonising fungi for a tropical
-Malaysian campus, two indexed joint publications, a curated isolate collection, evidence-based
-exterior material selection and maintenance guidance, a campus air-quality reporting protocol,
-and trained undergraduate and postgraduate researchers. The project supports the Sarawak
-Post COVID-19 Development Strategy 2030 under Environmental Sustainability by giving MEITD, JKR
-and campus operators measured evidence on biodeterioration of tropical public buildings.
+Malaysian campus, two indexed joint publications, a curated isolate collection, exterior
+material selection and maintenance guidance, a campus air-quality reporting protocol, and
+trained student researchers. The project supports the Sarawak Post COVID-19 Development
+Strategy 2030 under Environmental Sustainability by giving MEITD, JKR and campus operators
+measured evidence on biodeterioration of tropical public buildings.
 
 ## 9. Background of Research
 
@@ -171,8 +172,8 @@ specified.
 - **H2.** Community composition differs between facade materials (concrete, painted render,
   tile), reflecting substrate moisture adsorption and nutrient availability [4,32].
 - **H3.** Abundance and composition differ between Northeast and Southwest monsoon phases, and
-  the direction of that difference is reproducible across two consecutive monsoon cycles
-  [36,37].
+  the direction of that difference is consistent when two seasonal phases are resampled twelve
+  months apart [36,37].
 - **H4.** Surfaces with higher algal and cyanobacterial cover support higher fungal abundance,
   consistent with biofilm pioneers conditioning the substrate [19].
 - **H5 (exploratory).** Fungal abundance is positively associated with antecedent particulate
@@ -255,8 +256,9 @@ capability supports UTS environmental reporting.
 2. **To determine how community composition and abundance vary** with facade material, building
    age, design approach, orientation and exposure, across paired visibly colonised and visually
    clean surfaces.
-3. **To establish seasonal and inter-annual variation** in community composition across two
-   complete Northeast and Southwest monsoon cycles.
+3. **To establish seasonal variation** in community composition across a complete annual cycle
+   spanning both monsoon phases, with two phases resampled twelve months apart to test
+   consistency.
 4. **To quantify algal and cyanobacterial surface cover** as a covariate of fungal colonisation,
    testing pioneer facilitation on tropical facades.
 5. **To monitor campus air quality and microclimate continuously** as environmental context for
@@ -266,7 +268,7 @@ capability supports UTS environmental reporting.
 
 ## 11. Methodology
 
-### Phase 1 — Site stratification and setup (Mar – Jun 2027)
+### Phase 1 — Site stratification and setup (Mar – May 2027)
 
 **Building selection.** Four buildings on the UTS Sibu campus, stratified to generate contrast
 on four axes rather than to describe one structure: **facade material** (exposed concrete,
@@ -291,10 +293,11 @@ for a calibration campaign under Sibu conditions before deployment.
 
 Two measurement limitations are stated explicitly rather than left for a reviewer to find.
 First, **the Malaysian Air Pollution Index is a Department of Environment index incorporating an
-SO₂ sub-index, which this instrumentation does not measure**; values reported here are therefore
-an *indicative campus air-quality index* computed from the available sub-indices, and are
-compared against the nearest DOE monitoring station for the regional signal rather than
-presented as official API. Second, **low-cost optical particulate sensors over-report mass at
+SO₂ sub-index, which this instrumentation does not measure.** Sulphur dioxide is not a
+determinant of surface fungal colonisation in any mechanism this project tests, so it is not
+instrumented and no SO₂ sensing is budgeted. Values reported here are therefore an *indicative
+campus air-quality index* computed from the available sub-indices, and are compared against the
+nearest DOE monitoring station for the regional signal rather than presented as official API. Second, **low-cost optical particulate sensors over-report mass at
 high relative humidity** because hygroscopic particle growth increases light scattering — the
 regime in which this campus routinely sits. A published hygroscopic growth correction is applied
 and **both corrected and uncorrected values are reported**, and relative humidity is retained as
@@ -304,7 +307,7 @@ a covariate in every model involving particulate matter. Any particulate–funga
 **Protocol validation.** Culture media, swab handling and the full contamination-control set are
 validated on a pilot round before the first formal sampling round.
 
-### Phase 2 — Sampling and culture (Jul 2027 – Jun 2028, continuing into Phase 3)
+### Phase 2 — Sampling and plating (Apr 2027 – Jul 2028)
 
 **Surface sampling.** At each point, a **10 × 10 cm sterile template** defines the sampled area.
 Three replicate sterile swabs are taken per point per round, moistened in sterile transport
@@ -317,22 +320,37 @@ percentage cover on a fixed ordinal scale; surface moisture presence; substrate 
 orientation; shading index; and the preceding rainfall, temperature, humidity and particulate
 record from the monitoring network.
 
-**Sampling rounds.** Six rounds across the project, scheduled to capture **two complete monsoon
-cycles**: Southwest 2027, Northeast 2027/28, Southwest 2028 and Northeast 2028/29, with two
-additional rounds triggered opportunistically during regional haze episodes. This two-cycle
-structure permits assessment of inter-annual variability rather than a single-cycle snapshot.
+**Sampling rounds.** Six quarterly rounds between April 2027 and July 2028, with up to two
+additional rounds triggered opportunistically during regional haze episodes:
+
+| Round | Month | Seasonal phase |
+| --- | --- | --- |
+| R1 | Apr 2027 | Inter-monsoon, onset of Southwest |
+| R2 | Jul 2027 | Southwest monsoon |
+| R3 | Oct 2027 | Inter-monsoon, pre-Northeast |
+| R4 | Jan 2028 | Northeast monsoon |
+| R5 | Apr 2028 | Inter-monsoon — **twelve-month repeat of R1** |
+| R6 | Jul 2028 | Southwest monsoon — **twelve-month repeat of R2** |
+
+R1 to R4 constitute a **complete annual seasonal round**, covering both monsoon phases and both
+inter-monsoon periods. R5 and R6 resample the R1 and R2 phases exactly twelve months later,
+giving paired year-on-year observations for two of the four phases.
+
+This is the maximum seasonal structure obtainable inside a fixed 24-month award. The project
+must close on 28 February 2029 with no extension, so sampling ends in July 2028 to leave seven
+months for the remaining molecular work, analysis, both manuscripts and grant closure. **Full
+inter-annual replication across both monsoon phases is explicitly outside the scope of this
+award** and is identified as follow-on work.
+
 At 36 points per round, the three replicate swabs are **composited per point per round**, giving
-**36 samples per round and 216 composited samples** over the project.
+**36 samples per round and 216 composited samples** over six rounds.
 
-**Culture and quantification.** Samples are cultured on SDA and PDA, with selective media as
-required, at the UTS laboratory. Colony counts are expressed as **colony-forming units per unit
-area** for surfaces and per cubic metre for settle plates. This quantitative culture dataset
-across all 216 samples is the statistical backbone of H1–H4 and is obtained at consumable cost
-only.
-
-**Isolate selection.** Colonies are separated by morphotype, purified, and a curated set of up
-to **100 unique isolates** spanning the morphotype range, buildings, materials and seasons is
-selected for molecular identification. Isolates are maintained as a referenced collection.
+**Plating and transfer.** Under the agreed division of labour, SRDC-TROPI supplies prepared
+sterile swabs and media to UTS ahead of each round. UTS performs the swabbing and inoculates SDA
+and PDA plates on site, then returns the inoculated plates and swabs to SRDC-TROPI under
+cold-chain conditions for incubation. This keeps media preparation and incubation inside the
+partner's controlled laboratory environment while field sampling stays with the UTS team, and it
+avoids duplicate procurement of the same consumables across the two budgets.
 
 **Contamination controls.** Low-biomass surface sampling is vulnerable to reagent, kit and
 airborne contamination, so the following are carried through the identical pipeline:
@@ -356,12 +374,19 @@ content of all blanks is **reported in the results**. Where sequence data permit
 signal is removed statistically using prevalence-based decontamination against the blank set
 rather than by inspection.
 
-### Phase 3 — Molecular characterisation at SRDC-TROPI (rolling, Jul 2027 – Dec 2028)
+### Phase 3 — Incubation, isolation and identification (rolling, Apr 2027 – Oct 2028)
 
-Live cultures are transported to SRDC-TROPI in Kota Samarahan in sealed, triple-packaged
-containers under cold-chain conditions. SRDC-TROPI performs controlled sub-culturing,
-purification, DNA extraction and PCR amplification of the **internal transcribed spacer (ITS)
-region** using fungal-specific primers, followed by Sanger sequencing of the amplicons.
+Inoculated plates and swabs are transported to SRDC-TROPI in Kota Samarahan in sealed,
+triple-packaged containers under cold-chain conditions. SRDC-TROPI incubates all plates and
+enumerates growth, with colony counts expressed as **colony-forming units per unit area** for
+surfaces and per cubic metre for settle plates. This quantitative dataset across all 216
+composited samples is the statistical backbone of H1 to H4. Colonies are separated by morphotype
+and purified, and a curated set of up to **100 unique isolates** spanning the morphotype range,
+buildings, materials and seasons is selected for identification. SRDC-TROPI performs DNA
+extraction and PCR amplification of the **internal transcribed spacer (ITS) region** using
+fungal-specific primers, and forwards the amplicons to an accredited commercial provider for
+Sanger sequencing, funded from the UTS Matching Grant under VOT 29000. Isolates are maintained
+by SRDC-TROPI as a referenced collection.
 Sequences are quality-trimmed, assembled and assigned taxonomically against a curated fungal ITS
 reference database, with the assignment method and confidence threshold stated, recognising that
 ITS amplicon classification is method-dependent [35].
@@ -383,7 +408,7 @@ described as **putatively toxigenic or biodeteriogenic** on the basis of publish
 the genus [16,17,18,19], not on the basis of assay in this project. Secondary protein-coding
 markers for finer resolution are identified as follow-on work.
 
-### Phase 4 — Analysis, synthesis and outputs (Jan – Feb 2029)
+### Phase 4 — Analysis, synthesis and closure (Aug 2028 – Feb 2029)
 
 **Statistical analysis.** Colony-forming-unit abundance is modelled with generalised linear
 mixed models appropriate to count data, with building, orientation, facade material, design
@@ -423,7 +448,10 @@ deposited in a public nucleotide database with accessions reported, subject to p
 conditions. The air-quality dataset is released as an open campus dataset.
 
 **Limitations.** The design is observational and establishes association, not causation. It
-characterises the culturable fraction of the community. Sampling is confined to one campus, so
+characterises the culturable fraction of the community. Seasonal structure is assessed over one
+complete annual round with two phases resampled twelve months apart, so year-on-year
+consistency can be tested for those two phases only; full inter-annual replication across all
+four phases is not achievable within a fixed 24-month term and is identified as follow-on work. Sampling is confined to one campus, so
 generalisation to other Sarawak building stock is indicative; the stratified building selection
 is intended to maximise the transferable contrast available within that constraint.
 
@@ -461,12 +489,12 @@ Written against the eight headings the URCMS field specifies.
   the empirical basis for a follow-on proposal on functional biodeterioration assay of the
   isolates recovered.
 
-**Costed extension, if partner funds permit.** Culture-independent **ITS amplicon metabarcoding**
-of composited surface samples, with blanks included, would characterise the non-culturable
-fraction and is the single highest-value addition to this design. At approximately RM333 per
-sample it exceeds the VOT 29000 ceiling and is therefore **not** requested from the Matching
-Grant. It is proposed for funding from SRDC-TROPI's matched research expenditure by
-reallocation within Schedule B Part 2, subject to written agreement under MoA Clause 4.5.
+**Identified follow-on work.** Three extensions are scoped by this project but deliberately
+outside it: culture-independent ITS amplicon profiling to characterise the non-culturable
+fraction of the community, functional degradation assay of the recovered isolates on
+cementitious coupons, and full inter-annual replication across both monsoon phases. All three
+are made possible by the isolate collection and baseline dataset this award produces, and none
+is affordable or achievable within the present ceiling and term.
 
 ## 13. References
 
@@ -544,8 +572,8 @@ concrete, painted render and tile, placing timber outside the project's own scop
 | --- | --- |
 | Low-cost air-quality and microclimate monitoring nodes (fabricated) | UTS Sibu campus |
 | Reference-grade air quality analyser (rented, calibration campaign) | UTS Sibu |
-| Incubators, biological safety cabinet, autoclave, microscopy | UTS laboratory, Sibu |
-| PCR thermal cyclers, centrifuges, gel electrophoresis systems, incubators | SRDC-TROPI, Kota Samarahan |
+| Biological safety cabinet, autoclave, cold storage for plate handling and transfer | UTS laboratory, Sibu |
+| Incubators, stereomicroscopy, PCR thermal cyclers, centrifuges, gel electrophoresis systems | SRDC-TROPI, Kota Samarahan |
 | Sanger sequencing (outsourced service) | Commercial provider |
 
 ## 15. Budget
@@ -556,13 +584,13 @@ Feb 2029.**
 
 | Vot | Description | Y1 (RM) | Y2 (RM) | Total |
 | --- | --- | --- | --- | --- |
-| 11000 | Salary and wages — undergraduate research assistant stipend for sampling, culture work and device assembly, RM500/month across active fieldwork and laboratory phases | 1,000 | 2,000 | 3,000 |
-| 21000 | Travelling and transportation — cold-chain courier of isolates to SRDC-TROPI across rolling processing rounds; local fieldwork transport between sampled buildings | 1,000 | 2,000 | 3,000 |
+| 11000 | Salary and wages — undergraduate research assistant stipend for field sampling, plating and device assembly, RM500/month across the six sampling rounds | 1,500 | 1,500 | 3,000 |
+| 21000 | Travelling and transportation — cold-chain transport of prepared media from SRDC-TROPI and return of inoculated plates and swabs, across six rounds; local fieldwork transport between the four sampled buildings | 1,800 | 1,200 | 3,000 |
 | 24000 | Rental — reference-grade air quality analyser for the pre-deployment calibration campaign | 1,500 | 0 | 1,500 |
-| 26000 | Research materials and supplies — **microbiology:** SDA and PDA media, agar, sterile swabs and transport medium, settle and culture plates, cryovials, sampling templates, PPE and consumables for 216 composited samples plus controls. **Monitoring:** microcontrollers, optical particulate and gas sensors, weather-resistant enclosures, gateway | 8,000 | 5,000 | 13,000 |
-| 29000 | Professional services — Sanger sequencing of ITS amplicons, approximately 100 reactions at RM25 (RM2,500); SORAS and SBC permit variation and renewal administration (RM500) | 500 | 2,500 | 3,000 |
-| 35000 | Accessories and equipment — public air-quality display unit and mounting at a high-traffic campus location | 1,500 | 0 | 1,500 |
-| | **TOTAL** | **13,500** | **11,500** | **25,000** |
+| 26000 | Research materials and supplies — **monitoring:** microcontrollers, optical particulate and gas sensors, weather-resistant enclosures, gateway. **Field sampling:** sterile sampling templates, cold-chain transport coolers and packs, PPE, labelling and field consumables for 216 composited samples plus controls | 9,000 | 2,000 | 11,000 |
+| 29000 | Professional services — Sanger sequencing of ITS amplicons, approximately 100 reactions at RM25 (RM2,500); SORAS and SBC permit variation and renewal administration (RM500) | 1,000 | 2,000 | 3,000 |
+| 35000 | Accessories and equipment — public air-quality display unit and mounting at a high-traffic campus location | 3,500 | 0 | 3,500 |
+| | **TOTAL** | **18,300** | **6,700** | **25,000** |
 
 **Notes for the assessor.**
 - **Cloud hosting and the data plan are not requested from the grant**, as VOT 26000 does not
@@ -573,8 +601,16 @@ Feb 2029.**
   indexed outputs.
 - Instrument rental is placed in **VOT 24000**, not VOT 35000, per the guideline treatment of
   rental.
-- VOT 35000 is 6% of the grant, well within the 40% ceiling. All assets acquired remain UTS
+- VOT 35000 is 14% of the grant, well within the 40% ceiling. All assets acquired remain UTS
   property and are entered in the project inventory.
+- **Culture media and sterile swabs are not requested from the grant.** Under the agreed
+  division of labour SRDC-TROPI prepares and supplies these from its matched expenditure
+  (Schedule B Part 2, item 1), and incubation takes place at SRDC-TROPI. VOT 26000 therefore
+  covers only UTS-side field sampling consumables, avoiding duplicate procurement of the same
+  items across the two budgets.
+- Expenditure is front-loaded into Year 1 because the monitoring instrumentation, the display
+  unit and the calibration rental are all first-year items, while sequencing accrues as isolates
+  are recovered across both years.
 - Supplier quotations are to be refreshed before submission; those held are dated 05/10/2026
   with 30 days validity.
 - The matched contribution of RM24,987 from SRDC-TROPI covers fungal isolation consumables, DNA
@@ -584,8 +620,13 @@ Feb 2029.**
 
 | Phase | Window | Targets and deliverables |
 | --- | --- | --- |
-| **Preparatory** | before 1 Mar 2027 | SORAS variation and renewal of SBC Permit submitted; MoA Clause 21 addendum executed (title, dates, Schedule A A5 team, Schedule B Part 1 budget); SRDC-TROPI written confirmation re-issued against revised dates; supplier quotations refreshed. No sampling, biological transfer or expenditure before the Commencement Date, per MoA Clause 5.2. |
-| **Phase 1** | Mar – Jun 2027 | Four buildings stratified and 36 fixed sampling points established and georeferenced; facade material and shading inventory complete; monitoring devices fabricated and calibrated against the rented reference instrument; cloud platform and public dashboard live; display unit installed; culture and contamination-control protocols validated on a pilot round. |
-| **Phase 2** | Jul 2027 – Jun 2028 | Southwest 2027 and Northeast 2027/28 sampling rounds complete, with haze-triggered rounds as they arise; rolling transport to SRDC-TROPI; isolation, purification, DNA extraction, PCR and Sanger identification proceeding per round; interim community profile at 12 months; first draft manuscript. |
-| **Phase 3** | Jul 2028 – Dec 2028 | Southwest 2028 and early Northeast 2028/29 rounds; molecular identification completed across the 100-isolate set; two-cycle seasonal and inter-annual analysis; blanks reported; mid-project progress report; **first indexed manuscript submitted**. |
-| **Phase 4** | Jan – Feb 2029 | Final Northeast rounds closed; exterior material selection and maintenance guidance issued; campus air-quality reporting protocol issued; isolate collection curated and sequences deposited; **second indexed manuscript submitted**; final project report and grant closure via URCMS. |
+| **Preparatory** | before 1 Mar 2027 | SORAS variation and renewal of SBC Permit submitted; MoA Clause 21 addendum executed (title, Commencement Date and term, Schedule A A5 team, Schedule B Part 1 budget); SRDC-TROPI written confirmation re-issued against revised dates; consumable supply split confirmed with SRDC-TROPI; supplier quotations refreshed. No sampling, biological transfer or expenditure before the Commencement Date, per MoA Clause 5.2. |
+| **Phase 1** | Mar – May 2027 | Four buildings stratified; 36 fixed sampling points established, georeferenced and photographed; facade material and shading inventory complete; monitoring hardware procured and fabrication begun; culture and contamination-control protocols agreed with SRDC-TROPI and validated. |
+| **Phase 2** | Apr 2027 – Jul 2028 | **R1 Apr 2027, R2 Jul 2027, R3 Oct 2027, R4 Jan 2028, R5 Apr 2028, R6 Jul 2028**, plus haze-triggered rounds; monitoring devices calibrated against the rented reference instrument and installed, cloud platform and public dashboard live and display unit installed by **Sep 2027**; covariate and algal cover records complete each round. |
+| **Phase 3** | Apr 2027 – Oct 2028 | Rolling transport, incubation, enumeration, morphotyping, isolation, DNA extraction, PCR and Sanger identification, one round at a time; **interim community profile at twelve months (Apr 2028)**; blanks processed and reported alongside each batch; curated 100-isolate set complete and sequences assigned by **Oct 2028**. |
+| **Phase 4** | Aug 2028 – Feb 2029 | Full seasonal and year-on-year analysis; **first indexed manuscript submitted Oct 2028**; exterior material selection and maintenance guidance issued; campus air-quality reporting protocol issued; isolate collection curated and sequences deposited; **second indexed manuscript submitted Jan 2029**; final project report and grant closure via URCMS by **28 Feb 2029**. |
+
+**Closure discipline.** The award is fixed at 24 months with no extension. Sampling therefore
+stops at R6 in July 2028, molecular work completes by October 2028, and the final four months
+carry only analysis, writing, dissemination and closure. No deliverable depends on activity
+after October 2028 other than writing.
