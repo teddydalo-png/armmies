@@ -382,77 +382,22 @@ def schedule():
 
 BUDGET = [
     ("11000", "Salary and Wages",
-     "<b>Y1 (RM1,500):</b> Undergraduate research assistant allowance at RM7.00/hour, max 4 hours/day "
-     "(RM28.00/day), approx. 18 working days per active month = RM500.00/month for 3 active months, timed to "
-     "sampling rounds R1-R3 and monitoring node assembly. <b>Y2 (RM1,500):</b> Same rate, 3 active months, for "
-     "rounds R4-R6, plate inoculation and cold-chain packing. Each round requires swabbing 36 fixed points across "
-     "4 buildings and 4 facade orientations, on-site inoculation of agar plates, recording of covariates and algal "
-     "cover, and packing for transfer to SRDC-TROPI: approx. 2 field days plus 1 preparation day per round. The "
-     "allocation purchases approx. 107 assistant-days. Within the RM3,000 ceiling for temporary and contract "
-     "personnel, Guideline Section 7(a).", "1,500.00", "1,500.00", "3,000.00"),
+     "<b>Y1 (RM 1,500):</b> Undergraduate research assistant allowance (RM 7.00/hour x 4 hours/day x approx. 18 days = RM 500.00/month x 3 active months) for sampling rounds R1 to R3 and monitoring node assembly. <b>Y2 (RM 1,500):</b> RA allowance (RM 500.00/month x 3 active months) for rounds R4 to R6, plate inoculation and cold-chain packing. Rate complies with Guideline Section 7(a); total within the RM 3,000 ceiling.",
+     "1,500.00", "1,500.00", "3,000.00"),
     ("21000", "Travel and Transport",
-     "<b>Y1 (RM850):</b> Cold-chain transport of biological materials, UTS Sibu to SRDC-TROPI Kota Samarahan "
-     "(approx. 300 km): 2 inbound consignments of prepared swabs and media and 3 return consignments of inoculated "
-     "plates, 5 legs at RM150.00 = RM750.00; inbound delivery of sensor modules, enclosures and field consumables, "
-     "2 deliveries at RM50.00 = RM100.00. <b>Y2 (RM2,150):</b> 1 inbound and 3 return consignments, 4 legs at "
-     "RM150.00 = RM600.00; 1 delivery at RM50.00; attendance at one indexed national conference to present project "
-     "findings (RM1,500.00) comprising return airfare RM700.00, accommodation RM250.00/night x 3 nights = RM750.00, "
-     "ground transport RM50.00. Media are batched across rounds inbound, while returns follow each round "
-     "individually because the cultures are live and require sealed triple packaging under cold chain, so ordinary "
-     "post is not usable. Conference registration is claimed separately under VOT 29000 as the guideline directs. "
-     "Subsistence claimed only for paper presentation. Local Sibu fieldwork travel excluded, as all four sampled "
-     "buildings are on the UTS campus. Within the RM3,000 SET ceiling, Guideline Section 7(b).",
+     "<b>Y1 (RM 850):</b> Cold-chain transport of swabs, media and inoculated plates between UTS Sibu and SRDC-TROPI, Kota Samarahan (5 legs x RM 150.00 = RM 750.00); inbound delivery of sensor modules and field consumables (2 x RM 50.00 = RM 100.00). <b>Y2 (RM 2,150):</b> Cold-chain transport (4 legs x RM 150.00 = RM 600.00); delivery (RM 50.00); attendance at one national conference to present project findings (RM 1,500.00 covering return airfare RM 700.00, accommodation RM 250.00/night x 3 nights, ground transport RM 50.00). <i>(Note: Conference registration fee is claimed under VOT 29000. Local Sibu fieldwork travel excluded, as all four sampled buildings are on campus. Within RM 3,000 SET ceiling, Guideline Section 7(b).)</i>",
      "850.00", "2,150.00", "3,000.00"),
     ("24000", "Rental",
-     "<b>Y1 (RM1,200):</b> Rental of a reference-grade air quality analyser for co-location calibration of the "
-     "low-cost monitoring nodes under Sibu field conditions, RM600.00/week x 2 weeks: one pre-deployment campaign "
-     "and one post-installation verification. Low-cost optical particulate sensors are subject to hygroscopic bias "
-     "at the high relative humidity prevailing on this campus and metal oxide gas sensors drift; co-located "
-     "reference measurement is what allows a correction to be derived and the reported values to be defensible. "
-     "Rental rather than purchase is appropriate for two short campaigns. Placed in VOT 24000 rather than VOT 35000 "
-     "per Guideline Section 7(c). <b>Y2 (RM0):</b> No further rental required.",
+     "<b>Y1 (RM 1,200):</b> Rental of a reference-grade air quality analyser for co-location calibration of the monitoring nodes (RM 600.00/week x 2 weeks): one pre-deployment campaign and one post-installation verification. <b>Y2 (RM 0):</b> No further rental required. <i>(Note: Rental rather than purchase, as the instrument is required for two short campaigns only. Placed in VOT 24000 per Guideline Section 7(c).)</i>",
      "1,200.00", "0.00", "1,200.00"),
     ("26000", "Research Materials and Supplies",
-     "<b>Y1 (RM9,300):</b> Monitoring node development (RM8,040) for 4 campus nodes plus spares, in a configuration "
-     "already validated in deployed service by the co-researcher under existing work, removing design risk: 4 "
-     "multi-parameter air-quality modules measuring CO2, PM2.5, PM10, temperature and humidity (RM650.00 ea, "
-     "RM2,600.00); 8 discrete temperature/humidity sensors as redundant per-node reference (RM25.00 ea, RM200.00); "
-     "4 metal oxide gas sensor sets for CO, CO2, O3, NH3, NOx (RM280.00/set, RM1,120.00); 6 microcontroller boards "
-     "with breakout (RM90.00 ea, RM540.00); 1 LoRa gateway and transmitter set (RM900.00); 4 IP65 ventilated "
-     "enclosures with mounting (RM220.00 ea, RM880.00); 4 sets power supply, solar panel, battery, cabling and "
-     "connectors (RM300.00/set, RM1,200.00); PCB fabrication, prototyping and soldering consumables (RM600.00). "
-     "Field sampling consumables (RM1,260): 10 stainless sterile sampling templates 10 x 10 cm (RM600.00), 2 "
-     "cold-chain coolers with gel packs (RM360.00), PPE and field consumables for R1-R3 (RM300.00). "
-     "<b>Y2 (RM2,500):</b> 2 further coolers (RM360.00); PPE and field consumables for R4-R6 (RM400.00); ethanol, "
-     "sample bags, labels and markers (RM540.00); culture consumable contingency (RM1,200.00) for SDA and PDA media, "
-     "sterile swabs and Petri dishes. SRDC-TROPI supplies culture media and swabs from its matched expenditure, so "
-     "the contingency covers only control plates required by the contamination-control protocol, repeat sampling "
-     "after a failed batch, and any delay in partner supply; it does not duplicate the partner's provision. Sulphur "
-     "dioxide sensing excluded, as it bears on no mechanism this project tests. Guideline Section 7(d).",
+     "<b>Y1 (RM 9,300):</b> Monitoring node components for four campus nodes plus spares (RM 8,040) comprising multi-parameter air-quality modules for CO2, PM2.5, PM10, temperature and humidity (RM 2,600); discrete temperature and humidity sensors (RM 200); metal oxide gas sensor sets (RM 1,120); microcontroller boards (RM 540); LoRa gateway and transmitter set (RM 900); IP65 enclosures and mounting (RM 880); power supply, solar panel, battery and cabling (RM 1,200); PCB fabrication and prototyping consumables (RM 600). Field sampling consumables (RM 1,260) comprising sterile sampling templates (RM 600), cold-chain coolers and gel packs (RM 360), and PPE for rounds R1 to R3 (RM 300). <b>Y2 (RM 2,500):</b> Additional cold-chain coolers (RM 360); PPE and field consumables for rounds R4 to R6 (RM 400); ethanol, sample bags, labels and markers (RM 540); culture consumable contingency (RM 1,200) for SDA and PDA media, sterile swabs and Petri dishes. <i>(Note: Node configuration is already validated in deployed service, removing design risk. Culture media and swabs are supplied by SRDC-TROPI as in-kind matched expenditure; the contingency covers control plates and repeat sampling only. Sulphur dioxide sensing excluded.)</i>",
      "9,300.00", "2,500.00", "11,800.00"),
     ("29000", "Professional Services",
-     "<b>Y1 (RM1,300):</b> Sanger sequencing of ITS amplicons, 32 reactions at the quoted rate of RM25.00/reaction "
-     "(RM800.00) for isolates from rounds R1-R3, inclusive of sample QC by gel electrophoresis and one free re-run "
-     "where a result is unsatisfactory; SORAS application and Sarawak Biodiversity Council permit fees covering the "
-     "project, its scope, its personnel and the participating institutions (RM500.00). <b>Y2 (RM1,700):</b> Sanger "
-     "sequencing, 48 reactions at RM25.00 (RM1,200.00) for isolates from rounds R4-R6; registration fee for one "
-     "indexed national conference (RM500.00). The 80 reactions cover a curated set of up to 60 isolates by "
-     "single-pass read, with bidirectional reads where assignment is ambiguous. DNA extraction and PCR amplification "
-     "are performed by SRDC-TROPI as an in-kind matched contribution, so only the sequencing service is charged to "
-     "this grant. Research may not be conducted in Sarawak without a valid permit, so the permit fee is a "
-     "precondition of all fieldwork. Journal article processing charges excluded; non-APC journals targeted for both "
-     "indexed outputs. Within the RM3,000 SET ceiling, Guideline Section 7(f).",
+     "<b>Y1 (RM 1,300):</b> Sanger sequencing of ITS amplicons, 32 reactions at RM 25.00 (RM 800.00) for isolates from rounds R1 to R3; SORAS application and Sarawak Biodiversity Council permit fees (RM 500.00). <b>Y2 (RM 1,700):</b> Sanger sequencing, 48 reactions at RM 25.00 (RM 1,200.00) for isolates from rounds R4 to R6; registration fee for one national conference (RM 500.00). <i>(Note: DNA extraction and PCR are performed by SRDC-TROPI as an in-kind matched contribution, so only the sequencing service is charged to this grant. Journal article processing charges excluded; non-APC journals targeted. Within RM 3,000 SET ceiling, Guideline Section 7(f).)</i>",
      "1,300.00", "1,700.00", "3,000.00"),
     ("35000", "Accessories and Small Appliances",
-     "<b>Y1 (RM3,000):</b> Outdoor-rated display panel presenting live readings and the current campus air-quality "
-     "classification at a high-traffic campus location (RM2,200.00); weatherproof housing, mounting bracket and "
-     "installation hardware (RM800.00). The display is a deliverable of the collaboration agreement between UTS and "
-     "SRDC and is the pathway by which monitoring becomes visible to building occupants and supports institutional "
-     "environmental reporting. Cloud hosting and the data plan are excluded, as the guideline does not support "
-     "utilities or subscriptions under VOT 26000 and VOT 23000 is restricted to USRRG and UFSRRG; these are provided "
-     "as a UTS in-kind contribution through institutional IT infrastructure. Procured following UTS Procurement "
-     "Procedure; assets remain UTS property and are entered in the project asset inventory. Total is 12% of the "
-     "grant, within the 40% ceiling, Guideline Section 7(g). <b>Y2 (RM0):</b> No accessories required.",
+     "<b>Y1 (RM 3,000):</b> Outdoor-rated display panel for live campus air-quality readings at a high-traffic location (RM 2,200.00); weatherproof housing, mounting bracket and installation hardware (RM 800.00). <b>Y2 (RM 0):</b> No accessories required. <i>(Note: Cloud hosting and data plan excluded as utilities, provided instead as a UTS in-kind contribution. Assets remain UTS property. Total is 12% of grant, within the 40% ceiling, Guideline Section 7(g).)</i>",
      "3,000.00", "0.00", "3,000.00"),
 ]
 
