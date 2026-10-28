@@ -67,12 +67,14 @@ directly the mechanism by which fungal acid secretion and oxalate formation degr
 cementitious substrates [16,17,18].
 
 **Co-Researchers (UTS)**
-- **Assoc. Prof. Dr. Kee Keh Kim** — building materials characterisation; facade orientation,
-  material inventory and exposure mapping across the sampled buildings.
+- **Assoc. Prof. Dr. Kee Keh Kim** — design, fabrication and calibration of the portable
+  air-quality monitoring nodes, extending a sensor configuration already validated in his
+  existing deployed work; facade material inventory and exposure mapping across the sampled
+  buildings.
 - **Ts. Dr. Nurhayatie Sajali** — microbiological protocol design, culture-based isolation and
   quantification, biosafety and contamination-control oversight at the UTS laboratory.
-- **Prof. Mohammad Shahril Osman** — sensor platform and data architecture; cloud database and
-  public dashboard development for the air-quality context workstream.
+- **Prof. Mohammad Shahril Osman** — data architecture, cloud database and public dashboard
+  development for the air-quality context workstream.
 - **Mohd Zahid Abidin** — institutional governance, policy alignment, and translation of
   findings into campus maintenance and reporting practice.
 
@@ -284,11 +286,15 @@ an internal control. This gives 4 buildings × 4 orientations × 2 (colonised/cl
 points**, plus 4 roof points = **36 fixed points**, georeferenced and photographed for repeat
 sampling.
 
-**Air quality and microclimate.** Monitoring devices are fabricated on a microcontroller
-platform with optical particulate and gas sensors in ventilated weather-resistant enclosures,
-measuring PM2.5, PM10, CO, NOx, O₃, CO₂, temperature and relative humidity, transmitting to a
-cloud database over campus Wi-Fi or LoRa, with a public dashboard and a display unit at a
-high-traffic campus location. Devices are co-located with a rented reference-grade instrument
+**Air quality and microclimate.** Portable monitoring nodes are fabricated on a microcontroller
+platform in ventilated IP65 weather-resistant enclosures, measuring PM2.5, PM10, CO, NOx, O₃,
+CO₂, temperature and relative humidity. The configuration follows one **already validated in
+deployed service** by the co-researcher under existing work — a multi-parameter air-quality
+module for particulates, carbon dioxide, temperature and humidity, a discrete temperature and
+humidity sensor as a redundant reference, and an MQ-series gas sensor set — so the expenditure
+replicates a proven build rather than carrying development risk. Nodes transmit to a cloud
+database over campus Wi-Fi or LoRa, with a public dashboard and a display unit at a high-traffic
+campus location. Devices are co-located with a rented reference-grade instrument
 for a calibration campaign under Sibu conditions before deployment.
 
 Two measurement limitations are stated explicitly rather than left for a reviewer to find.
@@ -570,7 +576,7 @@ concrete, painted render and tile, placing timber outside the project's own scop
 
 | Equipment | Location |
 | --- | --- |
-| Low-cost air-quality and microclimate monitoring nodes (fabricated) | UTS Sibu campus |
+| Portable air-quality monitoring nodes, fabricated: multi-parameter particulate/CO₂/T/RH module, discrete T/RH sensor, MQ-series gas set, microcontroller, LoRa gateway, IP65 enclosure | UTS Sibu campus |
 | Reference-grade air quality analyser (rented, calibration campaign) | UTS Sibu |
 | Biological safety cabinet, autoclave, cold storage for plate handling and transfer | UTS laboratory, Sibu |
 | Incubators, stereomicroscopy, PCR thermal cyclers, centrifuges, gel electrophoresis systems | SRDC-TROPI, Kota Samarahan |
@@ -584,13 +590,13 @@ Feb 2029.**
 
 | Vot | Description | Y1 (RM) | Y2 (RM) | Total |
 | --- | --- | --- | --- | --- |
-| 11000 | Salary and wages — undergraduate research assistant stipend for field sampling, plating and device assembly, RM500/month across the six sampling rounds | 1,500 | 1,500 | 3,000 |
-| 21000 | Travelling and transportation — cold-chain transport of prepared media from SRDC-TROPI and return of inoculated plates and swabs, across six rounds; local fieldwork transport between the four sampled buildings | 1,800 | 1,200 | 3,000 |
-| 24000 | Rental — reference-grade air quality analyser for the pre-deployment calibration campaign | 1,500 | 0 | 1,500 |
-| 26000 | Research materials and supplies — **monitoring:** microcontrollers, optical particulate and gas sensors, weather-resistant enclosures, gateway. **Field sampling:** sterile sampling templates, cold-chain transport coolers and packs, PPE, labelling and field consumables for 216 composited samples plus controls | 9,000 | 2,000 | 11,000 |
-| 29000 | Professional services — Sanger sequencing of ITS amplicons, approximately 100 reactions at RM25 (RM2,500); SORAS and SBC permit variation and renewal administration (RM500) | 1,000 | 2,000 | 3,000 |
-| 35000 | Accessories and equipment — public air-quality display unit and mounting at a high-traffic campus location | 3,500 | 0 | 3,500 |
-| | **TOTAL** | **18,300** | **6,700** | **25,000** |
+| 11000 | Salary and wages — undergraduate research assistant at RM7.00/hour, max 4 hours/day = RM500.00/month, 3 active months per year across the six sampling rounds and the node build | 1,500 | 1,500 | 3,000 |
+| 21000 | Travelling and transportation — cold-chain consignments of media, swabs and inoculated plates between UTS Sibu and SRDC-TROPI (RM150 x 2 directions x 6 rounds = RM1,800); inbound delivery of research materials and local movement during node installation (RM300); conference presentation travel and subsistence, Year 2 (RM900) | 1,400 | 1,600 | 3,000 |
+| 24000 | Rental — reference-grade air quality analyser for node calibration, RM600/week x 2 campaigns | 1,200 | 0 | 1,200 |
+| 26000 | Research materials and supplies — **monitoring node development RM8,040** (multi-parameter air-quality modules, T/RH sensors, MQ-series gas sets, microcontrollers, LoRa gateway, IP65 enclosures, power and solar, PCB and prototyping); **field sampling consumables RM2,560** (sterile templates, transport coolers and gel packs, PPE, ethanol and field consumables); **culture consumable contingency RM1,200** | 9,300 | 2,500 | 11,800 |
+| 29000 | Professional services — Sanger sequencing of ITS amplicons, 88 reactions at RM25.00 quoted (RM2,200); SORAS and SBC permit variation and renewal administration (RM300); conference registration, Year 2 (RM500) | 1,300 | 1,700 | 3,000 |
+| 35000 | Accessories and equipment — outdoor-rated public air-quality display panel (RM2,200) with weatherproof housing, mounting and installation hardware (RM800) | 3,000 | 0 | 3,000 |
+| | **TOTAL** | **17,700** | **7,300** | **25,000** |
 
 **Notes for the assessor.**
 - **Cloud hosting and the data plan are not requested from the grant**, as VOT 26000 does not
@@ -601,13 +607,16 @@ Feb 2029.**
   indexed outputs.
 - Instrument rental is placed in **VOT 24000**, not VOT 35000, per the guideline treatment of
   rental.
-- VOT 35000 is 14% of the grant, well within the 40% ceiling. All assets acquired remain UTS
-  property and are entered in the project inventory.
-- **Culture media and sterile swabs are not requested from the grant.** Under the agreed
-  division of labour SRDC-TROPI prepares and supplies these from its matched expenditure
-  (Schedule B Part 2, item 1), and incubation takes place at SRDC-TROPI. VOT 26000 therefore
-  covers only UTS-side field sampling consumables, avoiding duplicate procurement of the same
-  items across the two budgets.
+- VOT 11000, VOT 21000 and VOT 29000 each sit **at** their stated ceilings, not above them.
+  VOT 35000 is 12% of the grant, within the 40% ceiling. All assets acquired remain UTS property
+  and are entered in the project asset inventory.
+- **Culture media and sterile swabs are supplied by SRDC-TROPI** from its matched expenditure
+  (Schedule B Part 2, item 1), and incubation takes place at SRDC-TROPI. The RM1,200 held in
+  VOT 26000 is a **contingency only**, covering control plates, repeat sampling after a failed
+  batch and any delay in partner supply, so that the sampling programme is not interrupted. It
+  does not duplicate the partner's provision.
+- **Sulphur dioxide sensing is not instrumented and not budgeted.** It bears on no mechanism the
+  project tests.
 - Expenditure is front-loaded into Year 1 because the monitoring instrumentation, the display
   unit and the calibration rental are all first-year items, while sequencing accrues as isolates
   are recovered across both years.
