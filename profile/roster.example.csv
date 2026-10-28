@@ -1,0 +1,4 @@
+# Centre members, for output-sync and grant-radar team matching.
+# openalex_author_id is optional but makes the pull exact instead of name-matched.
+name,orcid,openalex_author_id,keywords,notes
+Example Member,0000-0000-0000-0000,,"building energy; thermal comfort",joined 2024

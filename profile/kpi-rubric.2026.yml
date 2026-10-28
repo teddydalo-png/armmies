@@ -1,0 +1,141 @@
+# UTS Academic Staff (Non-Administrative) KPI rubric, encoded from the 2026 form.
+#
+# WHY THIS IS A CONFIG FILE: the form is expected to change for 2027. When it does,
+# copy this to kpi-rubric.2027.yml, edit the numbers, and point --rubric at it.
+# Nothing in the scoring logic is hard-coded to this year's weights.
+#
+# `raw_to_marks` is the part people get wrong. Most sections CAP: raw points above
+# the cap convert to nothing. That makes the marginal value of more output zero in a
+# capped section, which is the single most important fact this rubric encodes.
+
+meta:
+  institution: "University of Technology Sarawak"
+  form: "Academic Staff (Non-Administrative) KPI Form"
+  year: 2026
+  schools: [SET, SBM, SCM, SBE]
+  source: "KPI-Form-Academic-Staff-Non-Administrative_2.pdf, 14pp"
+  expires_note: "Staff advises form changes in 2027. Re-encode before using for 2027."
+
+sections:
+  - id: teaching
+    name: "Teaching and Supervision"
+    max_marks: { A1-A3: 40, A4-A5: 30 }
+    raw_to_marks: direct          # itemised marks, already in final units
+    discretion: "Deans & HoPs"
+    # Columns on the form: A/B = A1-A3 with/without postgrads, C/D = A4-A5, E = UCiL/SFS
+    items:
+      - id: teaching_performance
+        name: "Teaching performance assessment (SET score)"
+        marks: { A: 10, B: 10, C: 10, D: 10, E: 15 }
+        bands:                     # SET score -> marks, SET/SBM/SCM/SBE column
+          - { min: 4.01, max: 5.00, marks: 10, ucil_marks: 15 }
+          - { min: 3.01, max: 4.00, marks: 8,  ucil_marks: 10 }
+          - { min: 2.50, max: 3.00, marks: 5,  ucil_marks: 8 }
+          - { min: 0.00, max: 2.49, marks: 0,  ucil_marks: 5 }
+      - id: teaching_hours
+        name: "Achieved minimum teaching credit hours"
+        marks: { A: 10, B: 10, C: 5, D: 5, E: 15 }
+        bands:
+          - { min: 18, marks: 10 }
+          - { min: 15, max: 17, marks: 8 }
+          - { min: 12, max: 14, marks: 5 }
+          - { min: 9,  max: 11, marks: 3 }
+          - { min: 0,  max: 8,  marks: 1 }
+      - id: supervision
+        name: "Supervision (FYP / studio / dissertation, main supervisor)"
+        marks: { A: 5, B: 10, C: 7, D: 10, E: 10 }
+        bands:
+          - { min: 5, marks: 10 }
+          - { min: 3, max: 4, marks: 5 }
+          - { min: 1, max: 2, marks: 3 }
+        co_supervisor_bands:
+          - { min: 5, marks: 3 }
+          - { min: 3, max: 4, marks: 2 }
+          - { min: 1, max: 2, marks: 1 }
+      - id: supervision_postgrad
+        name: "Supervision, postgraduate"
+        marks: { A: 5, B: 0, C: 5, D: 0, E: 0 }
+        bands:
+          - { min: 3, marks: 5 }
+          - { min: 1, max: 2, marks: 3 }
+        co_supervisor_bands:
+          - { min: 3, marks: 3 }
+          - { min: 1, max: 2, marks: 1 }
+      - id: teaching_module
+        name: "Preparing teaching module / syllabus / video / course file"
+        marks: { A: 10, B: 10, C: 3, D: 5, E: 10 }
+        bands:
+          - { min: 5, marks: 10 }
+          - { min: 3, max: 4, marks: 6 }
+          - { min: 1, max: 2, marks: 3 }
+
+  - id: research
+    name: "Research, Publication & Innovation and Income Generation"
+    max_marks: { A1-A3: 30, A4-A5: 40 }
+    raw_to_marks: cap             # raw points capped at max_marks; excess is WORTH NOTHING
+    activities:
+      journal_indexed_intl:      { name: "Indexed journal, international",   lead: 8,  co: 4 }
+      journal_indexed_natl:      { name: "Indexed journal, national",        lead: 3,  co: 2 }
+      journal_nonindexed_intl:   { name: "Non-indexed journal, international",lead: 4,  co: 2 }
+      journal_nonindexed_natl:   { name: "Non-indexed journal, national",     lead: 2,  co: 1 }
+      journal_submitted_intl:    { name: "Submitted for publication, intl",  lead: 4,  co: 2 }
+      journal_submitted_natl:    { name: "Submitted for publication, natl",  lead: 2,  co: 1 }
+      conference_presented:      { name: "Conference paper/poster presented",lead: 4,  co: 2 }
+      conference_proceedings:    { name: "Proceedings published",            lead: 2,  co: 1 }
+      technical_report:          { name: "Technical report / other publication", lead: 4, co: 2 }
+      grant_internal:            { name: "Internal grant",                   lead: 4,  co: 2 }
+      grant_external:            { name: "External grant",                   lead: 6,  co: 4 }
+      grant_international:       { name: "International grant",              lead: 10, co: 8 }
+      book:                      { name: "Book with ISBN",                   lead: 8,  co: 4 }
+      book_chapter:              { name: "Book chapter with ISBN",           lead: 6,  co: 3 }
+      medal_gold:                { name: "Competition medal, gold",          lead: 5,  co: 3 }
+      medal_silver:              { name: "Competition medal, silver",        lead: 3,  co: 2 }
+      medal_bronze:              { name: "Competition medal, bronze",        lead: 1,  co: 1 }
+      ip_approved:               { name: "IP approved (patent/innovation)",  lead: 10, co: 8 }
+      ip_submitted:              { name: "IP submitted",                     lead: 5,  co: 3 }
+      copyright:                 { name: "Copyright (app, digital content)", lead: 5,  co: 3 }
+      training:                  { name: "Training (register with CEPD/HCD)",lead: 3,  co: 2 }
+      commercialization:         { name: "Commercialisation of product/service", lead: 10, co: 8 }
+      consultancy_intl_over50k:  { name: "Consultancy, intl, >RM50k",        lead: 7,  co: 5 }
+      consultancy_natl_over50k:  { name: "Consultancy, natl, >RM50k",        lead: 5,  co: 3 }
+      consultancy_intl_under50k: { name: "Consultancy, intl, <RM50k",        lead: 5,  co: 3 }
+      consultancy_natl_under50k: { name: "Consultancy, natl, <RM50k",        lead: 3,  co: 1 }
+      project_bidding:           { name: "Project bidding (register with CEPD)", lead: 2, co: 1 }
+
+  - id: society
+    name: "Contribution to Society"
+    max_marks: { A1-A3: 5, A4-A5: 5 }
+    raw_to_marks: scale           # marks = raw * factor, capped
+    scale_factor: 0.5             # form: (raw / 10) x 5
+    raw_cap: 10
+    activities:
+      society_activity: { name: "Welfare/culture/arts/sports, social or environmental contribution", lead: 2.5, co: 2.5 }
+
+  - id: recognition
+    name: "Scholarly / Academic Recognition"
+    max_marks: { A1-A3: 10, A4-A5: 10 }
+    raw_to_marks: cap
+    activities:
+      recognition_item:
+        name: "Professional body, reviewer, examiner, keynote, award, fellowship, etc."
+        lead: 5                   # A1-A3: 5 points per item
+        co: 5
+        a4_a5_points: 2.5         # A4-A5: 2.5 points per item
+
+  - id: university
+    name: "Academic / Non-Academic Contribution to University"
+    max_marks: { A1-A3: 10, A4-A5: 10 }
+    raw_to_marks: cap
+    activities:
+      academic_coordinator: { name: "Academic coordinator appointment", lead: 5, co: 5 }
+      committee_member:     { name: "Campus/school/university committee or secretariat", lead: 2.5, co: 2.5 }
+      marketing_activity:   { name: "Marketing and promotional activity", lead: 2.5, co: 2.5 }
+
+  - id: student_dev
+    name: "Contribution to Student Development"
+    max_marks: { A1-A3: 5, A4-A5: 5 }
+    raw_to_marks: scale
+    scale_factor: 0.5
+    raw_cap: 10
+    activities:
+      student_activity: { name: "Student activity: advisor, invited speaker, participant", lead: 2.5, co: 2.5 }

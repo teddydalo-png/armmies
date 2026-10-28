@@ -1,0 +1,38 @@
+# Copy to profile/researcher.yml and fill in. Nothing here is guessed for you:
+# every skill that reads this file will stop and ask rather than invent a value.
+
+identity:
+  name: ""                     # as it appears on publications
+  orcid: ""                    # e.g. 0000-0002-1825-0097 — get one, it makes everything else work
+  openalex_author_id: ""       # e.g. A5023888391; find via scripts/acad/openalex.py whoami --name "..."
+  institution: "University of Technology Sarawak"
+  unit: "BERI"
+  city: "Sibu"
+  country: "MY"
+
+# Used by grant-radar to match calls, and by lit-matrix to judge relevance.
+# Be specific. "Sustainability" matches everything and therefore nothing.
+research:
+  keywords:
+    - ""
+  methods:
+    - ""
+  # Thematic programmes you can credibly align a proposal to.
+  alignments:
+    - "PCDS 2030"
+  # Things you will NOT pivot to, however well-funded. Stops the radar nagging.
+  out_of_scope:
+    - ""
+
+capacity:
+  supervision_slots_free: 0    # postgrad places you can actually take on
+  teaching_load_hours: 0       # per week, current semester
+  # Months you cannot realistically submit a major proposal in.
+  blackout_months: []
+
+# Promotion criteria for YOUR institution and grade. promo-file compares against
+# these, so paste the real rubric — not a generic one. Leave empty to be prompted.
+promotion:
+  current_grade: ""
+  target_grade: ""
+  criteria_source: ""          # path to the official rubric, or a URL

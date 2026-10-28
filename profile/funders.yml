@@ -1,0 +1,92 @@
+# Funder register for grant-radar.
+#
+# RULE: `last_verified` is the date a HUMAN last opened `url` and confirmed the
+# window. The radar prints this and refuses to treat anything older than
+# `stale_after_days` as fact. A silent scraper failure that makes you miss a
+# deadline is worse than having no radar, so staleness is surfaced, never hidden.
+#
+# `window` is the EXPECTED opening based on prior cycles. It is a prompt to go
+# and check, not a claim about this year's call.
+
+settings:
+  stale_after_days: 45
+  remind_at_days: [60, 30, 14, 7, 2]
+
+funders:
+  - id: srdc-srg
+    name: "SRDC Strategic Research Grant"
+    agency: "Sarawak Research and Development Council"
+    url: "https://srdc.sarawak.gov.my/"
+    submission_system: "RPMON"
+    window:
+      opens: "early November"
+      closes: "late January"
+      basis: "2026 call ran 1 Nov 2025 - 31 Jan 2026"
+    last_verified: ""            # <- set this when you check the site
+    eligibility:
+      - "PI must be based in Sarawak"
+    alignment_required: "PCDS 2030"
+    themes_2026:
+      - sustainable petrochemicals
+      - aerospace manufacturing
+      - semiconductors
+      - advanced materials
+      - electronics
+    priority: high
+    notes: >
+      Highest-leverage funder available to a Sarawak-based PI: the residency
+      requirement excludes most Malaysian competitors. Check the site in late
+      October — if the cycle repeats, the 2027 window opens within days.
+
+  - id: srdc-brightsparx
+    name: "BrightSparX"
+    agency: "Sarawak Research and Development Council"
+    url: "https://srdc.sarawak.gov.my/"
+    window: { opens: "unknown", closes: "unknown", basis: "separate SRDC scheme; cycle not confirmed" }
+    last_verified: ""
+    priority: medium
+    notes: "Tracked because it is SRDC money with the same residency advantage. Confirm cycle."
+
+  - id: mohe-frgs
+    name: "Fundamental Research Grant Scheme (FRGS)"
+    agency: "MOHE"
+    url: "https://mygrants.gov.my/"
+    window: { opens: "varies", closes: "varies", basis: "annual, announced via MyGrants" }
+    last_verified: ""
+    priority: high
+    notes: "Basic-research framing required. Private-university eligibility differs from public — confirm UTS status before drafting."
+
+  - id: mohe-prgs
+    name: "Prototype Research Grant Scheme (PRGS)"
+    agency: "MOHE"
+    url: "https://mygrants.gov.my/"
+    window: { opens: "varies", closes: "varies", basis: "annual, announced via MyGrants" }
+    last_verified: ""
+    priority: medium
+    notes: "Needs a prior fundamental result to prototype from. Good second-cycle target after a living-lab baseline paper."
+
+  - id: mohe-trgs
+    name: "Transdisciplinary Research Grant Scheme (TRGS)"
+    agency: "MOHE"
+    url: "https://mygrants.gov.my/"
+    window: { opens: "varies", closes: "varies", basis: "periodic, not every year" }
+    last_verified: ""
+    priority: low
+    notes: "Multi-institution consortium scheme. Only worth tracking once you have external co-PIs."
+
+  - id: mosti
+    name: "MOSTI programmes (incl. TeD, SRF)"
+    agency: "MOSTI"
+    url: "https://www.mosti.gov.my/"
+    window: { opens: "rolling", closes: "rolling", basis: "multiple schemes, independent cycles" }
+    last_verified: ""
+    priority: medium
+
+  - id: mtdc
+    name: "MTDC commercialisation funds"
+    agency: "Malaysian Technology Development Corporation"
+    url: "https://www.mtdc.com.my/"
+    window: { opens: "rolling", closes: "rolling", basis: "commercialisation-stage, rolling intake" }
+    last_verified: ""
+    priority: low
+    notes: "Only relevant once something is past prototype. Keep in the register so it is not forgotten, not in the weekly digest."

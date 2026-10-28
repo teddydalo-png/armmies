@@ -1,0 +1,48 @@
+# KPI ledger — the evidence behind each mark.
+#
+# Seeded from the 2026 form as you submitted it. Section totals are carried under
+# `declared_raw` because the form records totals, not itemised entries. As you add
+# real entries under `entries`, they ADD to the declared figure, so zero out the
+# declared value for a section once it is fully itemised.
+#
+# Every entry should carry `proof` — the form requires evidence for each claim.
+
+meta:
+  name: "Dr Armstrong Ighodalo Omoregie"
+  staff_id: "540"
+  year: 2026
+  designation: "Lecturer"
+  school: "School of Built Environment"
+  date_joined: "2026-01-02"
+  grade_band: "A1-A3"
+  # A = A1-A3 with postgrad students, B = A1-A3 without. Set to match your reality.
+  teaching_column: "A"
+
+# Teaching and supervision is the one section that is NOT a point pool — it is
+# banded per item. Fill these in and the scorer will tell you exactly which of the
+# 15 missing marks are recoverable.
+teaching:
+  set_score: null                 # teaching performance assessment, 0.00-5.00
+  credit_hours: null              # credit hours taught this year
+  fyp_main_supervisees: null      # FYP / studio / dissertation, as MAIN supervisor
+  fyp_co_supervisees: null
+  pg_main_supervisees: null       # postgraduate, as main supervisor
+  pg_co_supervisees: null
+  course_files: null              # teaching modules / course files prepared
+
+# Totals as submitted on the 2026 form.
+declared_raw:
+  teaching:    { raw: 25,  source: "2026 form, Summary of Total Achievement Marks" }
+  research:    { raw: 84,  source: "2026 form: A=81 (journals 64, submissions 2, grants 12, books 3) + B=3 training" }
+  society:     { raw: 15,  source: "2026 form: 7.5 + 7.5" }
+  recognition: { raw: 100, source: "2026 form: 70 + 10 + 20" }
+  university:  { raw: 15,  source: "2026 form: 12.5 + 2.5" }
+  student_dev: { raw: 10,  source: "2026 form" }
+
+# Itemise new work here as it happens. These add on top of declared_raw.
+entries: []
+#  - activity: journal_indexed_intl
+#    role: lead
+#    count: 1
+#    ref: "DOI or title"
+#    proof: "path/to/acceptance-letter.pdf"
