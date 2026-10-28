@@ -12,10 +12,10 @@
 | 11000 Salary and Wages | 1,500 | 1,500 | 3,000 | max RM3,000 — at cap |
 | 21000 Travelling and Transportation | 850 | 2,150 | 3,000 | max RM3,000 — at cap |
 | 24000 Rental | 1,200 | 0 | 1,200 | no stated cap |
-| 26000 Research Materials and Supplies | 9,300 | 2,500 | 11,800 | no stated cap |
+| 26000 Research Materials and Supplies | 9,900 | 1,900 | 11,800 | no stated cap |
 | 29000 Professional Services | 1,300 | 1,700 | 3,000 | max RM3,000 — at cap |
 | 35000 Accessories and Equipment | 3,000 | 0 | 3,000 | max 40% = RM10,000; this is 12% |
-| **TOTAL** | **17,150** | **7,850** | **25,000** | |
+| **TOTAL** | **17,750** | **7,250** | **25,000** | |
 
 VOT 23000 is not used — the guideline restricts it to USRRG and UFSRRG. Cloud hosting and the
 data plan are therefore **not requested from the grant** and are provided as a UTS in-kind
@@ -134,15 +134,16 @@ from this project.
 | PPE: gloves, masks, disposable coveralls, 6 rounds x 3 personnel | — | — | 700.00 |
 | Ethanol, sample bags, labels, markers, field consumables | — | — | 540.00 |
 
-**(c) Culture consumable contingency — RM1,200.00**
-SDA and PDA media, sterile swabs and Petri dishes. SRDC-TROPI supplies these from its matched
+**(c) Culture consumable contingency — RM1,200.00, split RM600.00 per project year**
+SDA and PDA media, sterile swabs and Petri dishes. The split places provision in Year 1 for
+rounds R1 to R3 and in Year 2 for rounds R4 to R6, so cover is in place from the first round. SRDC-TROPI supplies these from its matched
 research expenditure under Schedule B Part 2, so this allocation is a contingency only, covering
 additional rounds, repeat sampling after a failed batch, and the control plates that the
 contamination-control protocol requires. It ensures the sampling programme is not interrupted if
 partner supply is delayed.
 
-- Year 1: **RM9,300.00** (node development and initial consumables)
-- Year 2: **RM2,500.00** (consumables, spares and node maintenance parts)
+- Year 1: **RM9,900.00** (node development, field consumables, first-year culture contingency)
+- Year 2: **RM1,900.00** (consumables, spares, second-year culture contingency)
 - **Total: RM11,800.00**
 
 Justification. The monitoring node development is the largest single component because the
