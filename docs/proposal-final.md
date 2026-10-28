@@ -12,9 +12,7 @@ separate PDF attachments.
 
 Three points require the applicant's attention. First, every reference in Section 14 was drawn
 from the applicant's own Scopus search and must be checked against the claim it supports before
-submission. Second, references are numbered sequentially in order of first appearance in this
-document, so the numbering does not correspond to the numbering of the original Scopus export.
-Third, all supplier unit costs in Appendix A are planning figures and require current
+submission. Second, all supplier unit costs in Appendix A are planning figures and require current
 quotations, since the quotations presently held were issued on 5 October 2026 with thirty days
 validity.
 
@@ -71,7 +69,7 @@ within it without extension.
 project management and URCMS reporting. Leads the sampling design and the interpretation of
 microbial interaction with mineral substrates, drawing on an established background in
 microbially induced mineral processes, which is the mechanism by which fungal acid secretion and
-oxalate formation degrade cementitious materials [25, 26, 27].
+oxalate formation degrade cementitious materials (Jiang et al., 2022; Chaudhuri et al., 2020; Fomina et al., 2007).
 
 **Co-Researcher, UTS. Assoc. Prof. Dr Kee Keh Kim.** Design, fabrication and calibration of the
 portable air-quality monitoring nodes, extending a sensor configuration already validated in
@@ -119,146 +117,176 @@ Malaysian campus, two indexed joint publications, a curated isolate collection, 
 material selection and maintenance guidance, a campus air-quality reporting protocol, and
 trained student researchers. The project supports the Sarawak Post COVID-19 Development Strategy
 2030 under Environmental Sustainability by providing MEITD, JKR and campus operators with
-measured evidence on the biodeterioration of tropical public buildings [44].
+measured evidence on the biodeterioration of tropical public buildings (Economic Planning Unit Sarawak, 2021).
 
 ## 9. Background of research
 
 ### 9.1 Problem statement
 
-Educational buildings in the humid tropics acquire visible biological colonisation on their
-exteriors within a few years of completion. At the UTS Sibu campus, which is of modern green
-design, mould, algal films and fungal staining are present across multiple building facades. The
-institutional response is reactive chemical washing, which recurs, consumes maintenance budget
-and addresses appearance rather than cause.
+Educational buildings in the humid tropics frequently develop visible biological colonisation on
+exterior surfaces within a relatively short period after construction. At the University of
+Technology Sarawak (UTS) campus in Sibu, which is a platinum-rated green building, mould growth,
+algal films, and fungal staining are evident on multiple building facades despite modern design
+approaches and routine maintenance. The prevailing management response is periodic cleaning and
+chemical washing, which addresses aesthetic deterioration but does not identify the organisms
+responsible, the environmental drivers of colonisation, or the underlying factors influencing
+recurrence.
 
-Three gaps follow from this. The first is that the organisms responsible have not been
-identified. No inventory of facade-colonising fungi exists for a Malaysian campus of this type,
-and the available Malaysian and tropical literature concerns indoor environments [1, 2, 3],
-while exterior studies are drawn largely from temperate and subtropical settings [4, 5, 6, 7].
-The second is that the local drivers are unmeasured. Moisture availability is well established
-as the primary control on fungal colonisation of building materials [8, 9, 10, 11], and facade
-orientation, shading and ventilation are known to modulate how long exterior surfaces remain
-wet [12, 13, 14, 15], but these relationships have not been characterised for equatorial,
-green-designed educational buildings. The third is that maintenance decisions therefore have no
-local evidence base. Without knowing which taxa are present, and where on a building they
-concentrate, facility managers cannot select resistant finishes or schedule intervention by risk
-rather than by appearance.
+Three key knowledge gaps remain. First, the fungal communities colonising educational building
+exteriors in tropical environments are poorly characterised. Although studies have documented
+fungi in indoor educational environments and older buildings in Malaysia (Omar Hamdan et al.,
+2026; Norback et al., 2016), comparable studies of exterior building surfaces are limited and are
+largely derived from temperate or subtropical climates (Jain et al., 2009; Singh, 2000; Kosel et
+al., 2024). Consequently, there is currently no published inventory of facade-associated fungi for
+a tropical educational campus in Borneo.
 
-A specific tension motivates the work. Green building design in the humid tropics favours deep
-shading, reduced facade insolation, natural ventilation, planting close to the envelope and
-porous or textured finishes. Each of these plausibly extends the duration of surface wetness,
-which is the condition that fungal colonisation requires [8, 9, 11]. Whether green design
-inadvertently raises biodeterioration risk in equatorial climates appears to be untested, and it
-bears directly on how public buildings in Sarawak are specified.
+Second, the environmental and architectural drivers of exterior fungal colonisation remain largely
+unquantified. Moisture availability is consistently recognised as the principal determinant of
+fungal growth on building materials (Dedesko and Siegel, 2015; Ito and Mizuno, 2009; Scott, 1994;
+Shibuta and Teramoto, 2026). Factors such as facade orientation, shading, ventilation, material
+composition, and rainfall exposure influence surface wetness and therefore microbial
+establishment. However, these relationships have not been systematically investigated in tropical
+educational buildings designed according to contemporary sustainability and green-building
+principles. Third, maintenance and material-selection decisions are currently made without locally
+derived evidence. Without understanding which fungal taxa are present, where they preferentially
+colonise, and how environmental conditions influence their growth, facility managers are unable to
+implement targeted prevention strategies or optimise maintenance schedules.
+
+An important and unexplored question concerns the interaction between green building design and
+fungal colonisation. Sustainable design strategies commonly employed in tropical environments,
+including deep overhangs, extensive shading, natural ventilation, facade vegetation, and textured
+exterior finishes, may unintentionally promote prolonged surface moisture retention. Because
+persistent surface wetness is a key requirement for fungal establishment and growth (Ito and
+Mizuno, 2009; Scott, 1994; Shibuta and Teramoto, 2026), it is possible that some green-building
+features may increase susceptibility to biodeterioration under equatorial climatic conditions. To
+the best of current knowledge, this relationship has not been examined in educational buildings in
+Sarawak.
+
+This project addresses these gaps through the molecular characterisation of fungal communities
+colonising educational building exteriors and by evaluating the influence of facade
+characteristics, microclimatic conditions, and campus air quality on fungal establishment and
+persistence.
 
 ### 9.2 Hypotheses
 
-H1. Fungal abundance and diversity differ significantly between facade orientations, with
-shaded, low-insolation facades supporting higher values, consistent with longer surface wetness
-duration [8, 9, 11].
+H1. Fungal abundance and diversity differ significantly among facade orientations, with shaded and
+low-insolation facades supporting greater fungal colonisation due to prolonged surface wetness (Ito
+and Mizuno, 2009; Scott, 1994; Shibuta and Teramoto, 2026).
 
-H2. Community composition differs between facade materials, namely exposed concrete, painted
-render and tile, reflecting differences in substrate moisture adsorption and nutrient
-availability [8, 3].
+H2. Fungal community composition differs among facade materials, including exposed concrete,
+painted render, and ceramic tile, reflecting differences in moisture retention and substrate
+properties (Ara et al., 2025; Shibuta and Teramoto, 2026).
 
-H3. Abundance and composition differ between the Northeast and Southwest monsoon phases, and the
-direction of that difference is consistent when two seasonal phases are resampled twelve months
-apart [16, 17].
+H3. Fungal abundance and community composition differ between Northeast and Southwest monsoon
+periods, and these seasonal patterns remain consistent when corresponding periods are resampled
+twelve months later (Liao et al., 2004; Medrela-Kuder, 2003).
 
-H4. Surfaces carrying higher algal and cyanobacterial cover support higher fungal abundance,
-consistent with biofilm pioneers conditioning the substrate [18].
+H4. Surfaces exhibiting higher algal and cyanobacterial cover also exhibit greater fungal
+abundance, reflecting facilitative interactions during biofilm establishment and surface
+conditioning (Gaylarde and Morton, 1997).
 
-H5, exploratory. Fungal abundance is positively associated with antecedent particulate matter
-concentration after adjustment for relative humidity and rainfall [19].
+H5. Fungal abundance is positively associated with antecedent particulate matter concentration
+after accounting for relative humidity, rainfall, and temperature (Ramos, 2023).
 
 ### 9.3 Research questions
 
-1. Which fungal taxa colonise the exteriors of tropical educational buildings at UTS Sibu, and
-   what is their relative abundance?
-2. Does community composition and abundance differ by facade material, building age, design
-   approach and orientation?
-3. Does composition vary between monsoon phases, and is that seasonal signal consistent when a
-   phase is resampled a year later?
-4. Is algal and cyanobacterial cover associated with fungal abundance, as pioneer facilitation
-   would predict?
-5. Is fungal abundance associated with antecedent particulate matter and microclimate once
-   humidity and rainfall are accounted for?
+RQ1. Which fungal taxa colonise the exteriors of tropical educational buildings in Sibu, Sarawak,
+and what are their relative abundances?
+
+RQ2. How do fungal abundance, diversity, and community composition vary according to facade
+material, building age, architectural design, and orientation?
+
+RQ3. How does fungal community composition vary between seasonal monsoon phases, and are these
+seasonal patterns consistent over time?
+
+RQ4. Is algal and cyanobacterial cover associated with fungal abundance and community composition?
+
+RQ5. Are fungal abundance and diversity associated with campus air-quality parameters and
+microclimatic conditions after controlling for humidity and rainfall?
 
 ### 9.4 Literature review
 
-Relative humidity and surface moisture are consistently identified as the dominant determinants
-of fungal colonisation on building materials. Humidity level governs the rate of biodeterioration
-on mineral substrates [4], the moisture adsorption properties of the material itself condition
-growth [8], hyphal extension rate varies directly with humidity [9], and moisture parameters
-structure the fungal communities that establish on building surfaces [10]. The relationship
-between moisture, ventilation and mould growth has been recognised in the conservation
-literature for several decades [11].
+Moisture availability is widely recognised as the primary determinant of fungal colonisation on
+building materials. Relative humidity influences biodeterioration rates on mineral substrates (Jain
+et al., 2009), material moisture adsorption characteristics affect fungal growth potential (Shibuta
+and Teramoto, 2026), and hyphal extension rates increase under favourable humidity conditions (Ito
+and Mizuno, 2009). Moisture-related variables have also been shown to structure fungal communities
+on building surfaces (Dedesko and Siegel, 2015). Consequently, moisture persistence remains central
+to understanding fungal establishment and biodeterioration processes (Scott, 1994).
 
-Building design governs how long that moisture persists. Facade geometry, glazing ratio, shading
-and ventilation strategy together determine the duration of surface wetness. Studies of tropical
-educational buildings have addressed the daylight and energy optimisation of facades [12, 15],
-the retrofitting of passive design measures [13, 20] and the prevention of mould growth under
-high mechanical ventilation rates in hot and humid climates [14]. Occupant-driven variation in
-the operation of windows, doors and fans introduces further variability in naturally ventilated
-school buildings [21]. These literatures optimise for energy performance and thermal comfort;
-biodeterioration risk does not generally appear among their objectives, which is the gap this
-project addresses.
+Building design directly influences moisture persistence through its effects on ventilation,
+shading, insolation, and rainfall exposure. Previous studies have focused on daylight optimisation,
+energy efficiency, passive design strategies, and indoor environmental quality in educational
+buildings (Alaidroos and Mosly, 2023; Idowu et al., 2026; Lim et al., 2026; Purnama et al., 2025),
+and on the influence of occupant control of windows, doors and fans in naturally ventilated
+classrooms (Franceschini et al., 2024; Lotun et al., 2026). However, biodeterioration risk is
+rarely considered within these design frameworks despite its relevance to long-term building
+performance and maintenance.
 
-The taxa recovered from built surfaces are reasonably consistent across studies. Penicillium is
-routinely isolated from school buildings [6]. Cladosporium sphaerospermum predominates on indoor
-surfaces, its xerotolerance supported by osmoregulation and melanisation that permit persistence
-under fluctuating water activity [22]. Aspergillus lineages specifically associated with the
-built environment continue to be described [23], as do emerging tropical and subtropical taxa
-[24]. Within Malaysia, fungal assessment of older buildings in the Peninsula [1] and the
-detection of fungal DNA and mycotoxins in classroom dust in Johor Bahru, with associated
-occupant symptoms [2], establish both local relevance and a health dimension. Comparable
-exterior inventories for Borneo are absent from the indexed literature.
+Studies of the built environment consistently report fungal genera such as Penicillium,
+Cladosporium, and Aspergillus as dominant colonisers of indoor and outdoor surfaces (Ejdys and
+Biedunkiewicz, 2011; Segers et al., 2015; Tanney et al., 2017), while emerging tropical and
+subtropical taxa continue to be described (Wang et al., 2026). Malaysian studies have linked fungal
+contamination in educational buildings with occupant health concerns and indoor environmental
+quality (Omar Hamdan et al., 2026; Norback et al., 2016). Nevertheless, exterior fungal communities
+of educational buildings in tropical Borneo remain undocumented.
 
-The mechanisms by which colonisation damages mineral substrates are well characterised. A
-critical review of the microbial degradation of concrete by fungi synthesises the physiological,
-ecological, physical and chemical pathways involved [25]. Aspergillus tamarii has been shown in
-vitro to deteriorate both concrete and marble [26], fungal deterioration of barrier concrete is
-documented in waste containment contexts [27], and marble substrates show mycologically mediated
-decay in heritage settings [7]. Biofilm formation and the production of extracellular polymeric
-substances accelerate deterioration and surface soiling [18], colonisation responds to
-environmental stressors in ways still being characterised [28], and comparative work on
-traditional and modern construction in coastal tropical India demonstrates material-specific
-susceptibility [3].
+The detrimental effects of fungal colonisation on construction materials are well established.
+Fungi contribute to aesthetic deterioration, biofilm formation, mineral dissolution, physical
+degradation, and material weakening through complex physiological and biochemical mechanisms (Jiang
+et al., 2022). Deterioration has been demonstrated in concrete, marble, and other construction
+materials under both laboratory and field conditions (Chaudhuri et al., 2020; Fomina et al., 2007;
+Fu et al., 2025; Kosel et al., 2024). These processes are often enhanced by biofilm development and
+extracellular polymeric substances that facilitate microbial persistence and substrate alteration
+(Gaylarde and Morton, 1997).
 
-Air quality forms part of the environmental context in which these communities develop.
-Particulate matter concentration co-varies with atmospheric fungal spore counts under tropical
-urban conditions [19], regional spore concentrations can be modelled from atmospheric data [29],
-and integrated particulate sensing is being applied to bioaerosol dynamics [30]. Occupancy
-itself elevates measured fungal and bacterial loads in classrooms [31], and school environments
-show systematic indoor to outdoor and seasonal structure in airborne fungi [32, 33, 16, 17, 34].
-This project accordingly records air quality and microclimate as environmental context for the
-surface communities rather than as an experimentally manipulated exposure.
+Air quality may also influence fungal colonisation dynamics. Atmospheric particulate matter has
+been associated with fungal spore concentrations in urban environments (Ramos, 2023), regional
+spore concentrations can be modelled from atmospheric data (Vida et al., 2024), and integrated
+particulate sensing is increasingly applied to bioaerosol dynamics (Barbosa et al., 2026).
+Occupancy elevates measured fungal and bacterial loads in classrooms (Hospodsky et al., 2015),
+while seasonal fluctuations strongly influence airborne fungal communities (Ebner et al., 1992;
+Liao et al., 2004; Medrela-Kuder, 2003; Salonen et al., 2015a, 2015b). Monitoring microclimatic and
+air-quality variables therefore provides important environmental context for interpreting patterns
+of facade colonisation.
 
-Culture-based and molecular detection methods are complementary rather than interchangeable.
-Culture recovers viable organisms but underestimates non-culturable and stressed taxa, whereas
-molecular detection is faster and more sensitive [35]. Swab type materially affects recovery
-efficiency [36], multiplex real-time PCR assays are available for filamentous fungi [37], and
-fungal volatile organic compounds offer an orthogonal signal [38]. The internal transcribed
-spacer region is the accepted primary fungal barcode [39], although the classification of ITS
-amplicons depends on the assignment method adopted [40] and resolution is limited within certain
-genera.
+Molecular approaches have significantly improved the accuracy of fungal identification.
+Culture-based methods recover viable fungi but may underestimate stressed or unculturable taxa,
+whereas molecular techniques provide greater sensitivity and taxonomic resolution (Warren et al.,
+2026), including multiplex real-time assays for filamentous fungi (Wei et al., 2024) and orthogonal
+signals from fungal volatile organic compounds (Pantoja et al., 2016). The Internal Transcribed
+Spacer (ITS) region remains the accepted primary fungal DNA barcode (Xu, 2016), making it
+particularly suitable for characterising fungal communities associated with tropical building
+exteriors, although taxonomic assignment of ITS amplicons depends on the classification method
+adopted (Porter and Golding, 2011). Recovery efficiency is also influenced by the sampling device
+used (Goverde et al., 2017).
 
-Finally, the intervention space is reasonably well defined. Antifungal nanocoatings based on
-silver and zinc oxide [41, 42] and non-thermal plasma treatment [43] have both been evaluated.
-An inventory of the taxa actually present on local facades is what would allow such options to
-be assessed for this building stock, which is the practical contribution this project seeks to
-make.
+Where intervention is required, the available options include antifungal nanocoatings based on
+silver and zinc oxide (Abdel-Rahim et al., 2026; Chen et al., 2018) and non-thermal plasma
+treatment (Roberts et al., 2025). An inventory of the taxa actually present on local facades is
+what would allow such options to be evaluated for this building stock.
+
+Despite advances in fungal ecology, biodeterioration science, and molecular detection, there
+remains no integrated study examining fungal community composition, facade characteristics, air
+quality, and microclimatic conditions on educational building exteriors in tropical Borneo. This
+project addresses that gap and provides evidence to support building maintenance, material
+selection, and sustainable design practices for public infrastructure in Sarawak.
 
 ### 9.5 Relevance to government policy, community and industry
 
-The project aligns with the Sarawak Post COVID-19 Development Strategy 2030 under the
-Environmental Sustainability and Social Well-being pillars [44]. It provides MEITD, JKR and
-public campus operators with measured evidence on the biological deterioration of tropical
-public building exteriors, supporting specification and maintenance decisions that are at
-present made without local data. The outputs transfer directly to schools, clinics and offices
-across Sarawak, which share the climate, the construction types and the reactive washing
-maintenance pattern. The isolate collection and the air-quality baseline remain as institutional
-assets, and the campus monitoring capability supports institutional environmental reporting.
+This project aligns with the Sarawak Post COVID-19 Development Strategy 2030 (PCDS 2030) under the
+Environmental Sustainability and Social Well-being pillars (Economic Planning Unit Sarawak, 2021).
+The findings will provide the Ministry of Education, Innovation and Talent Development (MEITD), the
+Public Works Department (JKR), higher education institutions, and facility managers with locally
+derived evidence on fungal biodeterioration of tropical building exteriors.
+
+The outcomes will support evidence-based decisions on building material selection, facade design,
+preventive maintenance planning, and environmental monitoring. Because schools, universities,
+healthcare facilities, and government buildings throughout Sarawak operate under similar climatic
+conditions and construction practices, the findings will have broad applicability across the state.
+In addition, the establishment of a curated fungal isolate collection and a campus environmental
+monitoring framework will provide long-term research assets and strengthen local capacity in
+environmental microbiology, building science, and sustainable infrastructure management.
 
 ## 10. Objectives
 
@@ -330,7 +358,7 @@ on a pilot round before the first formal round.
 At each point a sterile template of ten centimetres by ten centimetres defines the sampled area.
 Three replicate sterile swabs are taken per point per round, moistened in sterile transport
 medium, with swab type held constant throughout, recognising that recovery efficiency is
-swab-dependent [36]. Passive settle plates are deployed adjacent to a defined subset of points
+swab-dependent (Goverde et al., 2017). Passive settle plates are deployed adjacent to a defined subset of points
 for airborne spore capture.
 
 Covariates are recorded at every point in every round. These are algal and cyanobacterial cover,
@@ -404,7 +432,7 @@ accredited commercial provider for Sanger sequencing, funded from this Matching 
 assignment is ambiguous, within the eighty sequencing reactions budgeted. Sequences are
 quality-trimmed, assembled and assigned taxonomically against a curated fungal ITS reference
 database, with the assignment method and confidence threshold stated, recognising that ITS
-amplicon classification is method-dependent [40]. Isolates are maintained by SRDC-TROPI as a
+amplicon classification is method-dependent (Porter and Golding, 2011). Isolates are maintained by SRDC-TROPI as a
 referenced collection.
 
 Processing is rolling rather than batched. Each sampling round is transported and processed as it
@@ -414,13 +442,13 @@ years of samples have accumulated, and reduces schedule risk.
 
 Two limitations of the identification approach are acknowledged in the design rather than the
 discussion. First, this is a culture-dependent characterisation. Culture recovers viable
-organisms but systematically underestimates non-culturable and stressed environmental taxa [35],
+organisms but systematically underestimates non-culturable and stressed environmental taxa (Warren et al., 2026),
 so the inventory describes the culturable fraction and is reported as such. Culture-independent
 ITS amplicon profiling is identified as the priority extension. Second, the internal transcribed
-spacer region is the accepted primary fungal barcode [39] but does not reliably resolve all
+spacer region is the accepted primary fungal barcode (Xu, 2016) but does not reliably resolve all
 genera to species level. Assignments are therefore reported at genus level, with species-level
 identification given only where ITS support is unambiguous. Taxa are described as putatively
-toxigenic or biodeteriogenic on the basis of published activity for the genus [25, 26, 27, 18],
+toxigenic or biodeteriogenic on the basis of published activity for the genus (Jiang et al., 2022; Chaudhuri et al., 2020; Fomina et al., 2007; Gaylarde and Morton, 1997),
 not on the basis of assay within this project. Secondary protein-coding markers for finer
 resolution are identified as follow-on work.
 
@@ -490,7 +518,7 @@ processing charges are targeted, since such charges are not funded within the VO
 **Theory.** The first characterisation of facade-colonising fungal communities for an equatorial
 Bornean educational campus, and the first test of whether tropical green design features are
 associated with elevated surface colonisation, extending moisture-control models of fungal growth
-[8, 9, 10] from material and indoor scales to the designed tropical exterior.
+(Shibuta and Teramoto, 2026; Ito and Mizuno, 2009; Dedesko and Siegel, 2015) from material and indoor scales to the designed tropical exterior.
 
 **Prototype.** A low-cost campus air-quality and microclimate monitoring network with a cloud
 database and a public real-time dashboard, replicable by other institutions in Sarawak.
@@ -539,53 +567,93 @@ Sanger sequencing is outsourced to an accredited commercial provider.
 
 ## 14. References
 
-References are numbered in order of first appearance in this document. Each was identified
-through a Scopus search and must be verified against the claim it supports before submission.
+Abdel-Rahim, I.R., Nafady, N.A., Bagy, M.M.K., et al. (2026) 'Mitigating indoor air quality risks from Cladosporium sphaerospermum-induced biodeterioration of oil-based paints using silver and zinc oxide nanoparticles', Aerobiologia. https://doi.org/10.1007/s10453-025-09895-5
 
-1. Omar Hamdan, A.S., Ahmad, N.I., Mohd Tap, R. et al. Fungus assessment in indoor environment of old buildings in Peninsular Malaysia. *Aerobiologia*, 42, 14 (2026). https://doi.org/10.1007/s10453-026-09903-2
-2. Norback, D., Hashim, J.H., Cai, G.-H., et al. Rhinitis, ocular, throat and dermal symptoms, headache and tiredness among students in schools from Johor Bahru, Malaysia: associations with fungal DNA and mycotoxins in classroom dust. *PLoS ONE*, 2016.
-3. Ara, M., Das, I.P., Nayak, R. Impact of indoor fungal growth on building materials in coastal Karnataka: a comparative study of traditional and modern construction. *Journal of The Institution of Engineers (India): Series A*, 2025.
-4. Jain, A., Bhadauria, S., Kumar, V., Chauhan, R.S. Biodeterioration of sandstone under the influence of different humidity levels in laboratory conditions. *Building and Environment*, 2009.
-5. Singh, J. Fungal problems in historic buildings. *Journal of Architectural Conservation*, 2000.
-6. Ejdys, E., Biedunkiewicz, A. Fungi of the genus Penicillium in school buildings. *Polish Journal of Environmental Studies*, 2011.
-7. Kosel, J., Tomsic, N., Mlakar, M., et al. Mycological evaluation of the visible deterioration symptoms on the Spectatius family marble tomb, Slovenia. *Heritage Science*, 2024.
-8. Shibuta, T., Teramoto, A. Fundamental study on the effect of moisture adsorption properties of building materials on fungal growth. *Journal of Structural and Construction Engineering*, 2026.
-9. Ito, K., Mizuno, Y. Measurement of hyphal growth rate under various humidity conditions and development of fungal growth model. *Journal of Environmental Engineering*, 2009.
-10. Dedesko, S., Siegel, J.A. Moisture parameters and fungal communities associated with gypsum drywall in buildings. *Microbiome*, 2015.
-11. Scott, G. Moisture, ventilation and mould growth. *Studies in Conservation*, 1994.
-12. Lim, T.W., Tongtuam, Y., Ongsavangchai, N. Optimizing window-to-floor ratio and glazing for daylight and cooling in tropical educational buildings: a case study in Chiang Mai, Thailand. *Journal of Daylighting*, 2026.
-13. Idowu, A., Aigbavboa, C., Oke, A., et al. Integrating passive design principles in the retrofitting of educational buildings. *Architectural Engineering and Design Management*, 2026.
-14. Alaidroos, A., Mosly, I. Preventing mold growth and maintaining acceptable indoor air quality for educational buildings operating with high mechanical ventilation rates in hot and humid climates. *Air Quality, Atmosphere and Health*, 2023.
-15. Purnama, M.S.S., Sangadji, F.A., Nugraha, D. Optimizing facade design for energy and daylight performance in tropical educational buildings. *IOP Conference Series: Earth and Environmental Science*, 2025.
-16. Liao, C.-M., Luo, W.-C., Chen, S.-C., et al. Temporal and seasonal variations of size-dependent airborne fungi indoor and outdoor relationships for a wind-induced naturally ventilated airspace. *Atmospheric Environment*, 2004.
-17. Medrela-Kuder, E. Seasonal variations in the occurrence of culturable airborne fungi in outdoor and indoor air in Cracow. *International Biodeterioration and Biodegradation*, 2003.
-18. Gaylarde, C.C., Morton, L.H.G. The importance of biofilms in microbial deterioration of constructional materials. *Revista de Microbiologia*, 1997.
-19. Ramos, R. Relationship between particulate matter (PM10), meteorological parameters, and the concentration of fungal spores in the atmosphere of San Martin Square in Lima. *Ecologia Aplicada*, 2023.
-20. Lotun, S.S., Gooroochurn, M., Lollchund, R.M. Assessment of combinations of passive measures for buildings using artificial intelligence and machine learning. *Journal of Building Engineering*, 2026.
-21. Franceschini, P.B., Schweiker, M., Neves, L.O. Predictive modelling of multi-domain factors on window, door, and fan status in naturally ventilated school classrooms. *Building and Environment*, 2024.
-22. Segers, F.J.J., Meijer, M., Houbraken, J., et al. Xerotolerant Cladosporium sphaerospermum are predominant on indoor surfaces compared to other Cladosporium species. *PLoS ONE*, 2015.
-23. Tanney, J.B., Visagie, C.M., Yilmaz, N., Seifert, K.A. Aspergillus subgenus Polypaecilum from the built environment. *Studies in Mycology*, 2017.
-24. Wang, S.-Y., Chen, L., Cao, J.-J., et al. Colletotrichum magnum species complex: emerging pathogens in tropical and subtropical regions. *Phytopathology*, 2026.
-25. Jiang, L., Pettitt, T.R., Buenfeld, N., Smith, S.R. A critical review of the physiological, ecological, physical and chemical factors influencing the microbial degradation of concrete by fungi. *Building and Environment*, 2022.
-26. Chaudhuri, A., Bhattacharyya, S., Chaudhuri, P., et al. In vitro deterioration study of concrete and marble by Aspergillus tamarii. *Journal of Building Engineering*, 2020.
-27. Fomina, M., Podgorsky, V.S., Olishevska, S.V., et al. Fungal deterioration of barrier concrete used in nuclear waste disposal. *Geomicrobiology Journal*, 2007.
-28. Fu, T., Lai, Q., Chen, X., et al. Fungal colonization on building materials under reduced barometric pressure: a laboratory study. *Case Studies in Construction Materials*, 2025.
-29. Vida, M., Foret, G., Siour, G., et al. Modelling of atmospheric concentrations of fungal spores: a 2-year simulation over France using CHIMERE. *Atmospheric Chemistry and Physics*, 2024.
-30. Barbosa, M.I., Roxo, H., Ribeiro, P., et al. Integrated PM, MOX and thermal sensing for monitoring bioaerosol dynamics in controlled indoor environments. *Sensors*, 2026.
-31. Hospodsky, D., Yamamoto, N., Nazaroff, W.W., et al. Characterizing airborne fungal and bacterial concentrations and emission rates in six occupied children's classrooms. *Indoor Air*, 2015.
-32. Salonen, H., Duchaine, C., Mazaheri, M., et al. Airborne culturable fungi in naturally ventilated primary school environments in a subtropical climate. *Atmospheric Environment*, 2015.
-33. Salonen, H., Duchaine, C., Mazaheri, M., et al. Airborne viable fungi in school environments in different climatic regions: a review. *Atmospheric Environment*, 2015.
-34. Ebner, M.R., Haselwandter, K., Frank, A. Indoor and outdoor incidence of airborne fungal allergens at low and high altitude alpine environments. *Mycological Research*, 1992.
-35. Warren, B.G., Graves, A., Barrett, A., et al. Comparing rapid molecular and culture methods for detecting fungal contamination in healthcare environments. *Infection Control and Hospital Epidemiology*, 2026.
-36. Goverde, M., Willrodt, J., Staerk, A. Evaluation of the recovery rate of different swabs for microbial environmental monitoring. *PDA Journal of Pharmaceutical Science and Technology*, 2017.
-37. Wei, Y., Lin, Y., Zhao, J., et al. Development of a TaqMan probe-based multiplex real-time PCR for the simultaneous detection of four clinically important filamentous fungi. *Microbiology Spectrum*, 2024.
-38. Pantoja, L.D.M., do Nascimento, R.F., de Araujo Nunes, A.B. Investigation of fungal volatile organic compounds in hospital air. *Atmospheric Pollution Research*, 2016.
-39. Xu, J. Fungal DNA barcoding. *Genome*, 2016.
-40. Porter, T.M., Golding, G.B. Are similarity-based or phylogeny-based methods more appropriate for classifying internal transcribed spacer (ITS) metagenomic amplicons? *New Phytologist*, 2011.
-41. Chen, Y.-C., Yu, K.-P., Shao, W.-C., et al. Novel mold-resistant building materials impregnated with thermally reduced nano-silver. *Indoor Air*, 2018.
-42. Abdel-Rahim, I.R., Nafady, N.A., Bagy, M.M.K., et al. Mitigating indoor air quality risks from Cladosporium sphaerospermum-induced biodeterioration of oil-based paints using silver and zinc oxide nanoparticles. *Aerobiologia*, 2026.
-43. Roberts, D.M., Thomas, J.E., Salmon, J.H., et al. Cold atmospheric plasma improves antifungal responsiveness of Aspergillus flavus and Fusarium keratoplasticum conidia and mycelia. *PLOS ONE*, 2025.
-44. Economic Planning Unit Sarawak. (2021). *Post COVID-19 Development Strategy 2030 (PCDS 2030)*. Sarawak Government. https://www.sarawak.gov.my/media/attachments/PCDS_Compressed_22_July_2021.pdf
+Alaidroos, A. and Mosly, I. (2023) 'Preventing mold growth and maintaining acceptable indoor air quality for educational buildings operating with high mechanical ventilation rates in hot and humid climates', Air Quality, Atmosphere and Health. https://doi.org/10.1007/s11869-022-01277-x
+
+Ara, M., Das, I.P. and Nayak, R. (2025) 'Impact of indoor fungal growth on building materials in coastal Karnataka: a comparative study of traditional and modern construction', Journal of the Institution of Engineers (India): Series A, 106, pp. 1255-1267. https://doi.org/10.1007/s40030-025-00931-8
+
+Barbosa, M.I., Roxo, H., Ribeiro, P., et al. (2026) 'Integrated PM, MOX and thermal sensing for monitoring bioaerosol dynamics in controlled indoor environments', Sensors. https://doi.org/10.3390/s26113521
+
+Chaudhuri, A., Bhattacharyya, S., Chaudhuri, P., et al. (2020) 'In vitro deterioration study of concrete and marble by Aspergillus tamarii', Journal of Building Engineering. https://doi.org/10.1016/j.jobe.2020.101774
+
+Chen, Y.-C., Yu, K.-P., Shao, W.-C., et al. (2018) 'Novel mold-resistant building materials impregnated with thermally reduced nano-silver', Indoor Air. https://doi.org/10.1111/ina.12443
+
+Dedesko, S. and Siegel, J.A. (2015) 'Moisture parameters and fungal communities associated with gypsum drywall in buildings', Microbiome, 3, 71. https://doi.org/10.1186/s40168-015-0137-y
+
+Ebner, M.R., Haselwandter, K. and Frank, A. (1992) 'Indoor and outdoor incidence of airborne fungal allergens at low and high altitude alpine environments', Mycological Research. https://doi.org/10.1016/S0953-7562(09)80924-6
+
+Economic Planning Unit Sarawak (2021) Post COVID-19 Development Strategy 2030 (PCDS 2030). Kuching: Sarawak Government. Available at: https://www.sarawak.gov.my/media/attachments/PCDS_Compressed_22_July_2021.pdf
+
+Ejdys, E. and Biedunkiewicz, A. (2011) 'Fungi of the genus Penicillium in school buildings', Polish Journal of Environmental Studies, 20(2), pp. 333-338.
+
+Fomina, M., Podgorsky, V.S., Olishevska, S.V., et al. (2007) 'Fungal deterioration of barrier concrete used in nuclear waste disposal', Geomicrobiology Journal. https://doi.org/10.1080/01490450701672240
+
+Franceschini, P.B., Schweiker, M. and Neves, L.O. (2024) 'Predictive modelling of multi-domain factors on window, door, and fan status in naturally ventilated school classrooms', Building and Environment. https://doi.org/10.2139/ssrn.4765516
+
+Fu, T., Lai, Q., Chen, X., et al. (2025) 'Fungal colonization on building materials under reduced barometric pressure: a laboratory study', Case Studies in Construction Materials. https://doi.org/10.1016/j.cscm.2025.e05367
+
+Gaylarde, C.C. and Morton, L.H.G. (1997) 'The importance of biofilms in microbial deterioration of constructional materials', Revista de Microbiologia.
+
+Goverde, M., Willrodt, J. and Staerk, A. (2017) 'Evaluation of the recovery rate of different swabs for microbial environmental monitoring', PDA Journal of Pharmaceutical Science and Technology. https://doi.org/10.5731/pdajpst.2016.006783
+
+Hospodsky, D., Yamamoto, N., Nazaroff, W.W., et al. (2015) 'Characterizing airborne fungal and bacterial concentrations and emission rates in six occupied children's classrooms', Indoor Air. https://doi.org/10.1111/ina.12172
+
+Idowu, A., Aigbavboa, C., Oke, A., Ogundipe, K. and Stephen, S. (2026) 'Integrating passive design principles in the retrofitting of educational buildings', Architectural Engineering and Design Management, pp. 1-14. https://doi.org/10.1080/17452007.2026.2694389
+
+Ito, K. and Mizuno, Y. (2009) 'Measurement of hyphal growth rate under various humidity conditions and development of fungal growth model', Journal of Environmental Engineering (Transactions of AIJ), 74(636), pp. 193-199. https://doi.org/10.3130/aije.74.193
+
+Jain, A., Bhadauria, S., Kumar, V. and Chauhan, R.S. (2009) 'Biodeterioration of sandstone under the influence of different humidity levels in laboratory conditions', Building and Environment, 44(6), pp. 1276-1284. https://doi.org/10.1016/j.buildenv.2008.09.019
+
+Jiang, L., Pettitt, T.R., Buenfeld, N. and Smith, S.R. (2022) 'A critical review of the physiological, ecological, physical and chemical factors influencing the microbial degradation of concrete by fungi', Building and Environment. https://doi.org/10.1016/j.buildenv.2022.108925
+
+Kosel, J., Tomsic, N., Mlakar, M., et al. (2024) 'Mycological evaluation of the visible deterioration symptoms on the Spectatius family marble tomb (Slovenia)', Heritage Science, 12, 405. https://doi.org/10.1186/s40494-024-01527-4
+
+Liao, C.-M., Luo, W.-C., Chen, S.-C., et al. (2004) 'Temporal and seasonal variations of size-dependent airborne fungi indoor and outdoor relationships for a wind-induced naturally ventilated airspace', Atmospheric Environment. https://doi.org/10.1016/j.atmosenv.2004.04.029
+
+Lim, T.W., Tongtuam, Y. and Ongsavangchai, N. (2026) 'Optimizing window-to-floor ratio and glazing for daylight and cooling in tropical educational buildings: a case study in Chiang Mai, Thailand', Journal of Daylighting, 13(1), pp. 44-56. https://doi.org/10.15627/jd.2026.3
+
+Lotun, S.S., Gooroochurn, M. and Lollchund, R.M. (2026) 'Assessment of combinations of passive measures for buildings using artificial intelligence and machine learning', Journal of Building Engineering. https://doi.org/10.1016/j.jobe.2026.115776
+
+Medrela-Kuder, E. (2003) 'Seasonal variations in the occurrence of culturable airborne fungi in outdoor and indoor air in Cracow', International Biodeterioration and Biodegradation. https://doi.org/10.1016/S0964-8305(02)00167-1
+
+Norback, D., Hashim, J.H., Cai, G.H., Hashim, Z., Ali, F., et al. (2016) 'Rhinitis, ocular, throat and dermal symptoms, headache and tiredness among students in schools from Johor Bahru, Malaysia: associations with fungal DNA and mycotoxins in classroom dust', PLOS ONE, 11(2), e0147996. https://doi.org/10.1371/journal.pone.0147996
+
+Omar Hamdan, A.S., Ahmad, N.I., Mohd Tap, R., et al. (2026) 'Fungus assessment in indoor environment of old buildings in Peninsular Malaysia', Aerobiologia, 42, 14. https://doi.org/10.1007/s10453-026-09903-2
+
+Pantoja, L.D.M., do Nascimento, R.F. and de Araujo Nunes, A.B. (2016) 'Investigation of fungal volatile organic compounds in hospital air', Atmospheric Pollution Research. https://doi.org/10.1016/j.apr.2016.02.011
+
+Porter, T.M. and Golding, G.B. (2011) 'Are similarity-based or phylogeny-based methods more appropriate for classifying internal transcribed spacer (ITS) metagenomic amplicons?', New Phytologist. https://doi.org/10.1111/j.1469-8137.2011.03838.x
+
+Purnama, M.S.S., Sangadji, F.A. and Nugraha, D. (2025) 'Optimizing facade design for energy and daylight performance in tropical educational buildings', IOP Conference Series: Earth and Environmental Science. https://doi.org/10.1088/1755-1315/1564/1/012059
+
+Ramos, R. (2023) 'Relationship between particulate matter (PM10), meteorological parameters, and the concentration of fungal spores in the atmosphere of San Martin Square in Lima', Ecologia Aplicada.
+
+Roberts, D.M., Thomas, J.E., Salmon, J.H., et al. (2025) 'Cold atmospheric plasma improves antifungal responsiveness of Aspergillus flavus and Fusarium keratoplasticum conidia and mycelia', PLOS ONE. https://doi.org/10.1371/journal.pone.0326940
+
+Salonen, H., Duchaine, C., Mazaheri, M., et al. (2015a) 'Airborne culturable fungi in naturally ventilated primary school environments in a subtropical climate', Atmospheric Environment. https://doi.org/10.1016/j.atmosenv.2014.07.052
+
+Salonen, H., Duchaine, C., Mazaheri, M., et al. (2015b) 'Airborne viable fungi in school environments in different climatic regions: a review', Atmospheric Environment. https://doi.org/10.1016/j.atmosenv.2015.01.012
+
+Scott, G. (1994) 'Moisture, ventilation and mould growth', Studies in Conservation, 39(Suppl. 2), pp. 149-153.
+
+Segers, F.J.J., Meijer, M., Houbraken, J., et al. (2015) 'Xerotolerant Cladosporium sphaerospermum are predominant on indoor surfaces compared to other Cladosporium species', PLoS ONE. https://doi.org/10.1371/journal.pone.0145415
+
+Shibuta, T. and Teramoto, A. (2026) 'Fundamental study on the effect of moisture adsorption properties of building materials on fungal growth', Journal of Structural and Construction Engineering (Transactions of AIJ), 91(839), pp. 75-81. https://doi.org/10.3130/aijs.91.75
+
+Singh, J. (2000) 'Fungal problems in historic buildings', Journal of Architectural Conservation, 6(1), pp. 17-37. https://doi.org/10.1080/13556207.2000.10785259
+
+Tanney, J.B., Visagie, C.M., Yilmaz, N. and Seifert, K.A. (2017) 'Aspergillus subgenus Polypaecilum from the built environment', Studies in Mycology. https://doi.org/10.1016/j.simyco.2017.11.001
+
+Vida, M., Foret, G., Siour, G., et al. (2024) 'Modelling of atmospheric concentrations of fungal spores: a 2-year simulation over France using CHIMERE', Atmospheric Chemistry and Physics. https://doi.org/10.5194/egusphere-2024-698
+
+Wang, S.-Y., Chen, L., Cao, J.-J., et al. (2026) 'Colletotrichum magnum species complex: emerging pathogens in tropical and subtropical regions', Phytopathology. https://doi.org/10.1094/PHYTO-08-25-0278-RVW
+
+Warren, B.G., Graves, A., Barrett, A., et al. (2026) 'Comparing rapid molecular and culture methods for detecting fungal contamination in healthcare environments', Infection Control and Hospital Epidemiology. https://doi.org/10.1017/ice.2026.10491
+
+Wei, Y., Lin, Y., Zhao, J., et al. (2024) 'Development of a TaqMan probe-based multiplex real-time PCR for the simultaneous detection of four clinically important filamentous fungi', Microbiology Spectrum. https://doi.org/10.1128/spectrum.00634-24
+
+Xu, J. (2016) 'Fungal DNA barcoding', Genome. https://doi.org/10.1139/gen-2016-0046
 
 ## Appendix A. Budget by vot
 
