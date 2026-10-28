@@ -66,7 +66,7 @@ PCR and bioinformatic analysis.
 
 ## 6. Duration
 
-Twenty-four months, from 1 March 2027 to 29 February 2029, corresponding to the Cycle 1/2027
+Twenty-four months, from 1 March 2027 to 28 February 2029, corresponding to the Cycle 1/2027
 project start date. The award is of fixed term and the project is planned to complete and close
 within it without extension.
 

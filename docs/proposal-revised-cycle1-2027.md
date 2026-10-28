@@ -55,7 +55,7 @@ and SRDC-TROPI, Kota Samarahan (DNA extraction, PCR-based identification, bioinf
 
 ## 6. Duration
 
-**24 months. 1 March 2027 to 29 February 2029** (Cycle 1/2027 project start — confirm with CRD).
+**24 months. 1 March 2027 to 28 February 2029** (Cycle 1/2027 project start — confirm with CRD).
 
 ## 7. Research Team
 
