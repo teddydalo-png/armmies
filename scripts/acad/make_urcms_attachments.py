@@ -336,7 +336,56 @@ def flow():
     c.showPage(); c.save()
 
 
+ROUNDS = [
+    ("R1", "April 2027", "Inter-monsoon, onset of Southwest monsoon", ""),
+    ("R2", "July 2027", "Southwest monsoon", ""),
+    ("R3", "October 2027", "Inter-monsoon, preceding Northeast monsoon", ""),
+    ("R4", "January 2028", "Northeast monsoon", ""),
+    ("R5", "April 2028", "Inter-monsoon, onset of Southwest monsoon", "twelve-month repeat of R1"),
+    ("R6", "July 2028", "Southwest monsoon", "twelve-month repeat of R2"),
+]
+
+
+def schedule():
+    w, h = A4
+    c = canvas.Canvas(str(OUT / "sampling-schedule.pdf"), pagesize=(w, h))
+    top = header(c, w, h, "SAMPLING ROUND SCHEDULE")
+    y = top - 30
+    c.setFont("Helvetica-Bold", 8); c.setFillColor(INK)
+    for x, lab in ((40, "Round"), (95, "Month"), (190, "Seasonal phase"), (430, "Note")):
+        c.drawString(x, y, lab)
+    c.setStrokeColor(RULE); c.setLineWidth(0.6); c.line(36, y - 5, w - 36, y - 5)
+    y -= 20
+    for i, (r, m, phase, note) in enumerate(ROUNDS):
+        if i % 2 == 0:
+            c.setFillColor(BAND); c.rect(36, y - 6, w - 72, 18, stroke=0, fill=1)
+        c.setFillColor(INK); c.setFont("Helvetica-Bold", 8); c.drawString(40, y, r)
+        c.setFont("Helvetica", 8)
+        c.drawString(95, y, m); c.drawString(190, y, phase)
+        c.setFillColor(MARK); c.setFont("Helvetica-Oblique", 7.4)
+        c.drawString(430, y, note)
+        y -= 18
+    y -= 14
+    c.setFillColor(INK); c.setFont("Helvetica", 8)
+    for ln in [
+        "Rounds 1 to 4 constitute a complete annual seasonal round, covering both monsoon phases and both",
+        "inter-monsoon periods. Rounds 5 and 6 resample the Round 1 and Round 2 phases exactly twelve months",
+        "later, giving paired year-on-year observations for two of the four phases.",
+        "",
+        "Up to two additional rounds are triggered opportunistically during regional haze episodes.",
+        "",
+        "At each round, 36 fixed points are sampled: 4 buildings x 4 orientations x paired colonised and clean",
+        "surfaces, giving 32 wall points, plus 4 roof points. Three replicate swabs per point are composited,",
+        "giving 36 samples per round and 216 composited samples across the six rounds.",
+        "",
+        "Sampling closes in July 2028 so that the remaining molecular work, analysis, both manuscripts and",
+        "grant closure complete within the fixed 24-month term ending 28 February 2029.",
+    ]:
+        c.drawString(40, y, ln); y -= 12
+    c.showPage(); c.save()
+
+
 if __name__ == "__main__":
-    gantt(); milestones(); flow()
+    gantt(); milestones(); flow(); schedule()
     for f in sorted(OUT.glob("*.pdf")):
         print(f"{f.name:22s} {f.stat().st_size/1024:7.1f} KB")
