@@ -8,10 +8,8 @@ Drafted 28 Oct 2026. Laid out **in URCMS field order** so it can be pasted field
 >    them and I have invented none. Three claims in your original draft had no support in your
 >    list and have been cut or relabelled — noted at §13.
 > 2. Reference [48] has a truncated author string in your export. Complete it from Scopus.
-> 3. Conflict of interest: the Director of CRD approves virements (guideline §8) and the URC
->    gives final approval. With the VC and the CRD Director named as co-researchers, declare the
->    interest in Grant Type Remarks and let CRD rule on it. Better disclosed by you than noticed
->    by a panel.
+> 3. Schedule A A5 of the MoA names Prof. Dr. Hii Siew Ling, who is no longer on the team. The
+>    Clause 21 addendum must amend A5 to the list at §7 before or alongside submission.
 
 ---
 
@@ -39,11 +37,6 @@ molecular biology laboratory and the technical time of its designated specialist
 cash transfer between the parties. Total collaborative value **RM49,987.00**. Written
 confirmation of the matched expenditure is furnished by SRDC-TROPI under Clause 3.1(f) of the
 MoA and is attached.
-
-*Declaration of interest: Prof. Mohammad Shahril Osman (Vice-Chancellor) and Mohd Zahid Abidin
-(Director, Centre for Research and Development) are named co-researchers. Both hold offices with
-a role in the internal grant approval process. The Principal Researcher declares this interest
-and defers to CRD and the URC on any recusal required.*
 
 ## 3. Research Scope / Field / Area
 
