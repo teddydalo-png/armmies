@@ -38,25 +38,25 @@ IDX = {(y, m): i for i, (y, m, _) in enumerate(MONTHS)}
 
 # (label, start, end, style)  style: "bar" | "bar2"
 TASKS = [
-    ("SBC permit: variation and renewal", (2027, 3), (2027, 7), "bar2"),
+    ("SBC permit: SORAS application and issue", (2027, 3), (2027, 5), "bar2"),
     ("Building stratification, 36 sampling points", (2027, 3), (2027, 5), "bar"),
-    ("Monitoring node fabrication and calibration", (2027, 3), (2027, 8), "bar"),
+    ("Monitoring node fabrication and calibration", (2027, 3), (2027, 7), "bar"),
     ("Dashboard, cloud platform, display unit", (2027, 7), (2027, 9), "bar"),
     ("Continuous air-quality and microclimate record", (2027, 9), (2028, 12), "bar2"),
-    ("Sampling rounds R1-R6 (quarterly)", (2027, 4), (2028, 7), "bar"),
-    ("Incubation, enumeration, isolation (TROPI, rolling)", (2027, 4), (2028, 10), "bar"),
-    ("DNA extraction, PCR, Sanger identification", (2027, 6), (2028, 10), "bar"),
-    ("Statistical and community analysis", (2028, 4), (2029, 1), "bar"),
-    ("Manuscript 1: facade mycobiota inventory", (2028, 4), (2028, 10), "bar2"),
-    ("Manuscript 2: green design and colonisation risk", (2028, 10), (2029, 1), "bar2"),
-    ("Maintenance guidance and reporting protocol", (2028, 9), (2029, 2), "bar2"),
+    ("Sampling rounds R1-R6 (quarterly)", (2027, 6), (2028, 9), "bar"),
+    ("Incubation, enumeration, isolation (TROPI, rolling)", (2027, 6), (2028, 12), "bar"),
+    ("DNA extraction, PCR, Sanger identification", (2027, 8), (2028, 12), "bar"),
+    ("Statistical and community analysis", (2028, 6), (2029, 1), "bar"),
+    ("Manuscript 1: facade mycobiota inventory", (2028, 6), (2028, 11), "bar2"),
+    ("Manuscript 2: green design and colonisation risk", (2028, 11), (2029, 2), "bar2"),
+    ("Maintenance guidance and reporting protocol", (2028, 10), (2029, 2), "bar2"),
     ("Final report and URCMS closure", (2029, 1), (2029, 2), "bar"),
 ]
 
 # diamonds: (label, (year, month), row index to sit on)
 MILES = [
-    ("R1", (2027, 4), 5), ("R2", (2027, 7), 5), ("R3", (2027, 10), 5),
-    ("R4", (2028, 1), 5), ("R5", (2028, 4), 5), ("R6", (2028, 7), 5),
+    ("R1", (2027, 6), 5), ("R2", (2027, 9), 5), ("R3", (2027, 12), 5),
+    ("R4", (2028, 3), 5), ("R5", (2028, 6), 5), ("R6", (2028, 9), 5),
 ]
 
 
@@ -144,49 +144,43 @@ def gantt():
                  "R1-R4 = one complete annual seasonal round. R5 and R6 repeat the R1 and R2 "
                  "phases twelve months later.")
     c.drawString(lx, ny - 10,
-                 "Sampling closes July 2028 and molecular work October 2028, leaving the final "
-                 "four months for analysis, writing and closure. Fixed term, no extension.")
+                 "Sampling closes September 2028 and molecular work December 2028, leaving the "
+                 "final months for analysis, writing and closure. Fixed term, no extension.")
     c.drawString(lx, ny - 20,
-                 "Preparatory steps before 1 March 2027 (SORAS variation, MoA addendum, quotations) "
-                 "are outside the funded term per MoA Clause 5.2.")
+                 "The SBC permit is applied for on commencement; no sampling or transfer of biological "
+                 "material occurs before it is issued.")
     c.showPage(); c.save()
 
 
 MILESTONES = [
-    ("Preparatory", "before 1 Mar 2027", [
-        "SORAS application for SBC Permit variation and renewal submitted",
-        "MoA Clause 21 addendum executed: title, Commencement Date and term, Schedule A A5 team, Schedule B Part 1 budget",
-        "SRDC-TROPI written confirmation of matched expenditure re-issued against revised dates",
-        "Consumable supply split confirmed with SRDC-TROPI; supplier quotations refreshed",
-        "No sampling, biological transfer or expenditure before the Commencement Date (MoA Clause 5.2)",
-    ]),
     ("Phase 1", "Mar - May 2027", [
+        "SORAS application for the SBC permit submitted on commencement; permit issued",
         "Four buildings stratified by facade material, age, design approach and exposure",
         "36 fixed sampling points established, georeferenced and photographed",
-        "Facade material and shading inventory complete",
-        "Monitoring hardware procured; node fabrication begun",
+        "Facade material and shading inventory, and baseline algal and cyanobacterial cover survey, complete",
+        "Monitoring nodes fabricated and calibrated against the rented reference instrument",
         "Sampling, culture and contamination-control protocols agreed with SRDC-TROPI and validated",
     ]),
-    ("Phase 2", "Apr 2027 - Jul 2028", [
-        "R1 Apr 2027, R2 Jul 2027, R3 Oct 2027, R4 Jan 2028, R5 Apr 2028, R6 Jul 2028",
+    ("Phase 2", "Jun 2027 - Sep 2028", [
+        "R1 Jun 2027, R2 Sep 2027, R3 Dec 2027, R4 Mar 2028, R5 Jun 2028, R6 Sep 2028",
         "Haze-triggered supplementary rounds as episodes arise",
-        "Nodes calibrated against rented reference instrument and installed; dashboard and display live by Sep 2027",
+        "Nodes installed; cloud platform, public dashboard and display unit live by Sep 2027",
         "Algal and cyanobacterial cover plus microclimate covariates recorded at every point, every round",
         "Field, transport and extraction blanks collected each round",
     ]),
-    ("Phase 3", "Apr 2027 - Oct 2028", [
+    ("Phase 3", "Jun 2027 - Dec 2028", [
         "Rolling cold-chain transfer of inoculated plates to SRDC-TROPI, one round at a time",
         "Incubation, CFU enumeration, morphotyping, isolation and purification at SRDC-TROPI",
-        "Interim community profile at twelve months (Apr 2028)",
-        "DNA extraction and ITS PCR; Sanger identification of the curated 100-isolate set",
+        "Interim community profile at twelve months (Jun 2028)",
+        "DNA extraction and ITS PCR; Sanger identification of the curated 60-isolate set",
         "Blanks processed and reported alongside each batch; isolate collection curated",
     ]),
-    ("Phase 4", "Aug 2028 - Feb 2029", [
+    ("Phase 4", "Oct 2028 - Feb 2029", [
         "Full seasonal and year-on-year statistical and community analysis",
-        "First indexed manuscript submitted (Oct 2028)",
+        "First indexed manuscript submitted (Nov 2028)",
         "Exterior material selection and maintenance guidance issued",
         "Campus air-quality reporting protocol issued; sequences deposited with accessions",
-        "Second indexed manuscript submitted (Jan 2029)",
+        "Second indexed manuscript submitted (Feb 2029)",
         "Final project report and grant closure via URCMS by 28 Feb 2029",
     ]),
 ]
@@ -223,10 +217,10 @@ def milestones():
         y -= 8
     c.setFont("Helvetica-Oblique", 7)
     c.setFillColor(MUTE)
-    c.drawString(36, 44, "Fixed 24-month term, no extension. Sampling closes Jul 2028 and molecular "
-                         "work Oct 2028 so that the final four months carry only")
-    c.drawString(36, 35, "analysis, writing, dissemination and closure. No deliverable depends on "
-                         "activity after Oct 2028 other than writing.")
+    c.drawString(36, 44, "Fixed 24-month term, no extension. Sampling closes Sep 2028 and molecular "
+                         "work Dec 2028 so that the closing months carry only")
+    c.drawString(36, 35, "analysis, writing, dissemination and closure. The first sampling round follows "
+                         "issue of the SBC permit.")
     c.showPage(); c.save()
 
 
@@ -337,12 +331,12 @@ def flow():
 
 
 ROUNDS = [
-    ("R1", "April 2027", "Inter-monsoon, onset of Southwest monsoon", ""),
-    ("R2", "July 2027", "Southwest monsoon", ""),
-    ("R3", "October 2027", "Inter-monsoon, preceding Northeast monsoon", ""),
-    ("R4", "January 2028", "Northeast monsoon", ""),
-    ("R5", "April 2028", "Inter-monsoon, onset of Southwest monsoon", "twelve-month repeat of R1"),
-    ("R6", "July 2028", "Southwest monsoon", "twelve-month repeat of R2"),
+    ("R1", "June 2027", "Southwest monsoon", ""),
+    ("R2", "September 2027", "Southwest monsoon, late phase", ""),
+    ("R3", "December 2027", "Northeast monsoon", ""),
+    ("R4", "March 2028", "Northeast monsoon, late phase", ""),
+    ("R5", "June 2028", "Southwest monsoon", "twelve-month repeat of R1"),
+    ("R6", "September 2028", "Southwest monsoon, late phase", "twelve-month repeat of R2"),
 ]
 
 
@@ -368,9 +362,9 @@ def schedule():
     y -= 14
     c.setFillColor(INK); c.setFont("Helvetica", 8)
     for ln in [
-        "Rounds 1 to 4 constitute a complete annual seasonal round, covering both monsoon phases and both",
-        "inter-monsoon periods. Rounds 5 and 6 resample the Round 1 and Round 2 phases exactly twelve months",
-        "later, giving paired year-on-year observations for two of the four phases.",
+        "Rounds 1 to 4 constitute a complete annual seasonal round covering both monsoon phases. Rounds 5",
+        "and 6 resample the Round 1 and Round 2 phases exactly twelve months later, giving paired",
+        "year-on-year observations for two of those phases.",
         "",
         "Up to two additional rounds are triggered opportunistically during regional haze episodes.",
         "",
@@ -378,8 +372,9 @@ def schedule():
         "surfaces, giving 32 wall points, plus 4 roof points. Three replicate swabs per point are composited,",
         "giving 36 samples per round and 216 composited samples across the six rounds.",
         "",
-        "Sampling closes in July 2028 so that the remaining molecular work, analysis, both manuscripts and",
-        "grant closure complete within the fixed 24-month term ending 28 February 2029.",
+        "The first round falls three months after commencement so that the SBC permit can be applied for",
+        "and issued first. Sampling closes in September 2028 so that the remaining molecular work,",
+        "analysis, both manuscripts and grant closure complete within the term ending 28 February 2029.",
     ]:
         c.drawString(40, y, ln); y -= 12
     c.showPage(); c.save()

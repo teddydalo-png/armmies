@@ -10,12 +10,12 @@
 | Vot | Y1 (RM) | Y2 (RM) | Total (RM) | Ceiling |
 | --- | --- | --- | --- | --- |
 | 11000 Salary and Wages | 1,500 | 1,500 | 3,000 | max RM3,000 — at cap |
-| 21000 Travelling and Transportation | 1,150 | 1,850 | 3,000 | max RM3,000 — at cap |
+| 21000 Travelling and Transportation | 850 | 2,150 | 3,000 | max RM3,000 — at cap |
 | 24000 Rental | 1,200 | 0 | 1,200 | no stated cap |
 | 26000 Research Materials and Supplies | 9,300 | 2,500 | 11,800 | no stated cap |
 | 29000 Professional Services | 1,300 | 1,700 | 3,000 | max RM3,000 — at cap |
 | 35000 Accessories and Equipment | 3,000 | 0 | 3,000 | max 40% = RM10,000; this is 12% |
-| **TOTAL** | **17,450** | **7,550** | **25,000** | |
+| **TOTAL** | **17,150** | **7,850** | **25,000** | |
 
 VOT 23000 is not used — the guideline restricts it to USRRG and UFSRRG. Cloud hosting and the
 data plan are therefore **not requested from the grant** and are provided as a UTS in-kind
@@ -81,8 +81,8 @@ Subsistence is claimed only for paper presentation, as the guideline permits. Th
 correct vot for registration fees. Splitting the cost across the two vots is what allows a
 realistic total conference provision of **RM2,000.00** while keeping each vot at its ceiling.
 
-- Year 1: RM900.00 cold chain (2 inbound, 4 return) + RM100.00 deliveries = **RM1,150.00**
-- Year 2: RM450.00 cold chain (1 inbound, 2 return) + RM50.00 delivery + RM1,500.00 conference = **RM1,850.00**
+- Year 1: RM750.00 cold chain (2 inbound, 3 return) + RM100.00 deliveries = **RM850.00**
+- Year 2: RM600.00 cold chain (1 inbound, 3 return) + RM50.00 delivery + RM1,500.00 conference = **RM2,150.00**
 - **Total: RM3,000.00** (at the RM3,000 ceiling for Science, Engineering and Technology)
 
 ## 3. VOT 24000 — Rental — **RM1,200.00**
@@ -173,9 +173,10 @@ ambiguous.
 
 **(b) SORAS application and SBC permit fees — RM500.00**
 Fees for the Sarawak Online Research Application System submission and for the Sarawak
-Biodiversity Council permit variation covering the project title, scope, personnel and
-institutions, together with permit renewal. Research may not be conducted in Sarawak without a
-valid permit, so this is a precondition of all fieldwork rather than an optional cost.
+Biodiversity Council permit covering this project, its scope, its personnel and the
+participating institutions, together with any renewal falling within the project term. Research
+may not be conducted in Sarawak without a valid permit, so this is a precondition of all
+fieldwork rather than an optional cost.
 
 **(c) Conference registration fee — RM500.00**
 Registration for one indexed conference in Year 2, supporting the guideline requirement of two

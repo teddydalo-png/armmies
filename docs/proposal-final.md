@@ -23,11 +23,6 @@ validity.
 Fungal and microbial colonisation of tropical educational building exteriors: molecular
 characterisation and campus air-quality context at UTS Sibu.
 
-This title differs from the title recorded in the Memorandum of Agreement between SRDC and UTS
-and requires an amendment under Clause 21 of that Agreement, to be executed together with the
-amendments to the Commencement Date, the project term, the researcher list in Schedule A A5 and
-the budget in Schedule B Part 1.
-
 ## 2. Grant type
 
 UTS Matching Grant (UMG), Research Grant Collaboration, UTS/CRD/P13 Rev. 01.
@@ -46,8 +41,8 @@ designated specialists. UTS contributes RM25,000.00 through this Matching Grant,
 monitoring instrumentation, field sampling consumables, logistics and services. There is no cash
 transfer between the parties. The total collaborative value of the project is RM49,987.00.
 
-Written confirmation of the matched expenditure is furnished by SRDC-TROPI under Clause 3.1(f)
-of the Agreement and is attached to this application.
+The matched expenditure is set out in Schedule B Part 2 of the Agreement, and written
+confirmation is furnished by SRDC-TROPI under Clause 3.1(f) of the Agreement.
 
 ## 3. Research scope, field and area
 
@@ -96,10 +91,6 @@ maintenance.
 
 **Co-Researcher, SRDC-TROPI. Ms Jacquelina Avethia Jack.** Execution of molecular protocols and
 management of laboratory consumables.
-
-Schedule A A5 of the signed Agreement additionally lists Prof. Dr Hii Siew Ling, who is no
-longer a member of the team. The Clause 21 amendment need only delete that name, since the
-remaining UTS researchers already correspond to the list above.
 
 ## 8. Executive summary
 
@@ -334,7 +325,7 @@ that adjustment and is treated as exploratory.
 Sampling, culture and contamination control protocols are agreed with SRDC-TROPI and validated
 on a pilot round before the first formal round.
 
-### Phase 2. Sampling and plating, April 2027 to July 2028
+### Phase 2. Sampling and plating, June 2027 to September 2028
 
 At each point a sterile template of ten centimetres by ten centimetres defines the sampled area.
 Three replicate sterile swabs are taken per point per round, moistened in sterile transport
@@ -347,21 +338,21 @@ scored as percentage cover on a fixed ordinal scale; surface moisture presence; 
 material; orientation; a shading index; and the preceding rainfall, temperature, humidity and
 particulate record from the monitoring network.
 
-Six quarterly sampling rounds are conducted between April 2027 and July 2028, with up to two
-additional rounds triggered opportunistically during regional haze episodes. Round 1 falls in
-April 2027 at the inter-monsoon period and the onset of the Southwest monsoon; Round 2 in July
-2027 during the Southwest monsoon; Round 3 in October 2027 at the inter-monsoon period preceding
-the Northeast monsoon; Round 4 in January 2028 during the Northeast monsoon; Round 5 in April
-2028, a twelve-month repeat of Round 1; and Round 6 in July 2028, a twelve-month repeat of Round
-2. Rounds 1 to 4 constitute a complete annual seasonal round covering both monsoon phases and
-both inter-monsoon periods, while Rounds 5 and 6 provide paired year-on-year observations for two
-of the four phases. The schedule is supplied as an attachment.
+Six quarterly sampling rounds are conducted between June 2027 and September 2028, with up to
+two additional rounds triggered opportunistically during regional haze episodes. Round 1 falls in
+June 2027 during the Southwest monsoon; Round 2 in September 2027 in the late Southwest phase;
+Round 3 in December 2027 during the Northeast monsoon; Round 4 in March 2028 in the late Northeast
+phase; Round 5 in June 2028, a twelve-month repeat of Round 1; and Round 6 in September 2028, a
+twelve-month repeat of Round 2. Rounds 1 to 4 constitute a complete annual seasonal round covering
+both monsoon phases, while Rounds 5 and 6 provide paired year-on-year observations for two of
+those phases. The schedule is supplied as an attachment.
 
-This is the maximum seasonal structure obtainable within a fixed twenty-four month award. The
-project must close on 28 February 2029 without extension, so sampling ends in July 2028 in order
-to leave seven months for the remaining molecular work, the analysis, both manuscripts and grant
-closure. Full inter-annual replication across both monsoon phases lies outside the scope of this
-award and is identified as follow-on work.
+This is the maximum seasonal structure obtainable within a fixed twenty-four month award that also
+allows for permit processing before sampling begins. The project must close on 28 February 2029
+without extension, so sampling ends in September 2028 in order to leave five months for the
+remaining molecular work, the analysis, both manuscripts and grant closure. Full inter-annual
+replication across both monsoon phases lies outside the scope of this award and is identified as
+follow-on work.
 
 With thirty-six points per round, the three replicate swabs are composited per point per round,
 giving thirty-six samples per round and two hundred and sixteen composited samples across the six
@@ -396,7 +387,7 @@ low-level contamination. The content of all blanks is reported in the results. W
 data permits, contaminant signal is removed statistically by prevalence-based decontamination
 against the blank set rather than by inspection.
 
-### Phase 3. Incubation, isolation and identification, rolling, April 2027 to October 2028
+### Phase 3. Incubation, isolation and identification, rolling, June 2027 to December 2028
 
 Inoculated plates and swabs are transported to SRDC-TROPI in Kota Samarahan in sealed,
 triple-packaged containers under cold-chain conditions. SRDC-TROPI incubates all plates and
@@ -433,7 +424,7 @@ toxigenic or biodeteriogenic on the basis of published activity for the genus [2
 not on the basis of assay within this project. Secondary protein-coding markers for finer
 resolution are identified as follow-on work.
 
-### Phase 4. Analysis, synthesis and closure, August 2028 to February 2029
+### Phase 4. Analysis, synthesis and closure, October 2028 to February 2029
 
 Colony-forming unit abundance is modelled using generalised linear mixed models appropriate to
 count data, with building, orientation, facade material, design approach, season and algal cover
@@ -452,13 +443,19 @@ campus air-quality reporting protocol supporting institutional environmental rep
 ### Regulatory compliance, biosafety and data
 
 Research conducted in Sarawak requires a permit issued by the Sarawak Biodiversity Council
-through the Sarawak Online Research Application System. UTS holds SBC Permit No.
-SBC-2026-RDP-10-AIO, issued on 28 July 2026 and valid until 27 July 2027. A variation covering
-the project title, scope, personnel and institutions, together with a renewal, is submitted
-through SORAS during the preparatory period before the project commences, so that sampling is not
-gated by permit processing after the start date. Permit status, including the period granted on
-renewal, is tracked as a named milestone with the Principal Researcher as owner. Deposition of
-sequence data and of isolates is undertaken in accordance with the permit conditions.
+through the Sarawak Online Research Application System. An application for a permit covering this
+project, its scope, its personnel and the participating institutions is submitted through SORAS on
+commencement of the award. No surface sampling, and no collection or transfer of biological
+material, takes place until that permit is issued.
+
+The sampling schedule is set to accommodate the permit processing period. The first round is
+scheduled for June 2027, three months after commencement, and the preceding months are occupied by
+work that requires no permit: node fabrication and calibration, establishment and georeferencing of
+the sampling points, the facade material and shading inventory, and the visual survey of algal and
+cyanobacterial cover. Should issuance nonetheless fall later than planned, the rounds commence at
+the next quarterly point following issue and the closure date is unchanged. Permit status is
+tracked as a named milestone with the Principal Researcher as owner, and deposition of sequence
+data and of isolates is undertaken in accordance with the permit conditions.
 
 Culturing concentrates fungal genera that include potentially pathogenic and toxigenic species.
 Work is conducted at the containment level specified by the UTS biosafety assessment, with a
@@ -637,9 +634,9 @@ permits. The conference registration fee is claimed separately under VOT 29000, 
 the guideline places registration fees. Splitting the cost across the two vots is what allows a
 realistic total conference provision of RM2,000.00 while keeping each vot within its ceiling.
 
-Year 1 totals RM1,150.00, being RM900.00 of cold chain across two inbound and four return
-consignments plus RM100.00 of deliveries. Year 2 totals RM1,850.00, being RM450.00 of cold chain
-across one inbound and two return consignments, RM50.00 of delivery and RM1,500.00 of conference
+Year 1 totals RM850.00, being RM750.00 of cold chain across two inbound and three return
+consignments plus RM100.00 of deliveries. Year 2 totals RM2,150.00, being RM600.00 of cold chain
+across one inbound and three return consignments, RM50.00 of delivery and RM1,500.00 of conference
 travel. The total is RM3,000.00, which is the stated maximum for the Science, Engineering and
 Technology area.
 
@@ -709,10 +706,10 @@ materials and six sampling rounds, by single-pass read, with bidirectional reads
 whose assignment is ambiguous.
 
 SORAS application and SBC permit fees account for RM500.00, covering the Sarawak Online Research
-Application System submission and the Sarawak Biodiversity Council permit variation covering the
-project title, scope, personnel and institutions, together with permit renewal. Research may not
-be conducted in Sarawak without a valid permit, so this is a precondition of all fieldwork rather
-than an optional cost.
+Application System submission and the Sarawak Biodiversity Council permit for this project, its
+scope, its personnel and the participating institutions, together with any renewal falling within
+the project term. Research may not be conducted in Sarawak without a valid permit, so this is a
+precondition of all fieldwork rather than an optional cost.
 
 The conference registration fee accounts for RM500.00, for one indexed conference in Year 2,
 supporting the guideline requirement of two indexed conference or journal outputs. Associated
@@ -752,7 +749,7 @@ conference or journal outputs are committed, as the guideline requires. Virement
 only once during the project and requires the approval of the Director, Centre for Research and
 Development.
 
-Year 1 totals RM17,450.00 and Year 2 totals RM7,550.00, giving RM25,000.00 in all.
+Year 1 totals RM17,150.00 and Year 2 totals RM7,850.00, giving RM25,000.00 in all.
 
 ## Appendix B. Attachments
 
@@ -764,4 +761,5 @@ text fields.
 3. Research flow chart, showing the division of work between UTS, SRDC-TROPI and the sequencing
    provider, and the points at which controls enter the pipeline.
 4. Sampling round schedule, listing the six quarterly rounds with their seasonal phases.
-5. Written confirmation of matched research expenditure from SRDC-TROPI.
+5. Signed Memorandum of Agreement between SRDC and UTS, including Schedule B Part 2, which
+   records the matched research expenditure.
