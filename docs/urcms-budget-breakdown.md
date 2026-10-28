@@ -10,12 +10,12 @@
 | Vot | Y1 (RM) | Y2 (RM) | Total (RM) | Ceiling |
 | --- | --- | --- | --- | --- |
 | 11000 Salary and Wages | 1,500 | 1,500 | 3,000 | max RM3,000 — at cap |
-| 21000 Travelling and Transportation | 1,400 | 1,600 | 3,000 | max RM3,000 — at cap |
+| 21000 Travelling and Transportation | 1,150 | 1,850 | 3,000 | max RM3,000 — at cap |
 | 24000 Rental | 1,200 | 0 | 1,200 | no stated cap |
 | 26000 Research Materials and Supplies | 9,300 | 2,500 | 11,800 | no stated cap |
 | 29000 Professional Services | 1,300 | 1,700 | 3,000 | max RM3,000 — at cap |
 | 35000 Accessories and Equipment | 3,000 | 0 | 3,000 | max 40% = RM10,000; this is 12% |
-| **TOTAL** | **17,700** | **7,300** | **25,000** | |
+| **TOTAL** | **17,450** | **7,550** | **25,000** | |
 
 VOT 23000 is not used — the guideline restricts it to USRRG and UFSRRG. Cloud hosting and the
 data plan are therefore **not requested from the grant** and are provided as a UTS in-kind
@@ -53,29 +53,37 @@ delivers the human capital development outcome stated in the Expected Result.
 
 *Paste into the VOT 21000 box:*
 
-**(a) Cold-chain transport of biological materials, Sibu to Kota Samarahan — RM1,800.00**
-SRDC-TROPI supplies prepared sterile swabs and media to UTS before each round, and UTS returns
-inoculated plates and swabs for incubation. Two consignments per round, six rounds.
-RM150.00 per consignment x 2 directions x 6 rounds = **RM1,800.00**
+**(a) Cold-chain transport of biological materials, Sibu to Kota Samarahan — RM1,350.00**
+SRDC-TROPI supplies prepared sterile swabs and media to UTS, and UTS returns inoculated plates
+and swabs for incubation. Media are batched to cover two rounds per inbound consignment, while
+returns must follow each round individually because the cultures are live.
+3 inbound consignments + 6 return consignments = 9 legs x RM150.00 = **RM1,350.00**
 Materials are temperature-sensitive live cultures requiring sealed triple packaging under
 cold-chain conditions per MoA Clause 3.3(b); ordinary post is not usable.
 
-**(b) Delivery and local transport of purchased research materials — RM300.00**
-Inbound delivery of sensor modules, enclosures and field consumables to UTS Sibu, and transport
-of monitoring equipment between the four sampled buildings during installation, calibration and
-servicing. RM50.00 per movement x 6 movements = **RM300.00**
+**(b) Delivery of purchased research materials — RM150.00**
+Inbound delivery of sensor modules, enclosures and field consumables to UTS Sibu.
+RM50.00 per delivery x 3 deliveries = **RM150.00**
 
-**(c) Conference presentation, local — RM900.00**
-Travel and subsistence for one researcher to present project findings at an indexed national
-conference in Year 2, in support of the two indexed outputs required by the guideline.
-Return travel RM600.00 + subsistence RM150.00 x 2 days = **RM900.00**
-Subsistence is claimed only for paper presentation, as the guideline permits.
+**(c) Conference presentation, Year 2 — RM1,500.00**
+Travel and subsistence for one researcher to present project findings at an indexed conference,
+in support of the two indexed outputs the guideline requires.
 
-- Year 1: RM1,200.00 (4 rounds, 8 consignments) + RM200.00 local = **RM1,400.00**
-- Year 2: RM600.00 (2 rounds, 4 consignments) + RM100.00 local + RM900.00 conference = **RM1,600.00**
+| Item | Amount (RM) |
+| --- | --- |
+| Return airfare | 700.00 |
+| Accommodation, RM250.00 x 3 nights | 750.00 |
+| Ground transport to and from airports | 50.00 |
+| **Subtotal** | **1,500.00** |
+
+Subsistence is claimed only for paper presentation, as the guideline permits. The conference
+**registration fee is claimed separately under VOT 29000**, which the guideline lists as the
+correct vot for registration fees. Splitting the cost across the two vots is what allows a
+realistic total conference provision of **RM2,000.00** while keeping each vot at its ceiling.
+
+- Year 1: RM900.00 cold chain (2 inbound, 4 return) + RM100.00 deliveries = **RM1,150.00**
+- Year 2: RM450.00 cold chain (1 inbound, 2 return) + RM50.00 delivery + RM1,500.00 conference = **RM1,850.00**
 - **Total: RM3,000.00** (at the RM3,000 ceiling for Science, Engineering and Technology)
-
----
 
 ## 3. VOT 24000 — Rental — **RM1,200.00**
 
@@ -152,33 +160,35 @@ and it is therefore not instrumented and not budgeted.
 
 *Paste into the VOT 29000 box:*
 
-**(a) Sanger sequencing of ITS amplicons — RM2,200.00**
-88 reactions x RM25.00 per reaction = **RM2,200.00**
+**(a) Sanger sequencing of ITS amplicons — RM2,000.00**
+80 reactions x RM25.00 per reaction = **RM2,000.00**
 Quoted rate, NextGene Scientific Sdn Bhd, quotation QT2610/0124, inclusive of sample QC by gel
 electrophoresis and one free re-run where a result is unsatisfactory.
 Sample testing and analysis: SRDC-TROPI performs DNA extraction and PCR amplification of the
 internal transcribed spacer region from the curated isolate set, and the amplicons are forwarded
-to the provider for sequencing. 88 reactions cover the selected isolates spanning the morphotype
-range across four buildings, three facade materials and six sampling rounds.
+to the provider for sequencing. The 80 reactions cover a curated set of up to 60 isolates
+spanning the morphotype range across four buildings, three facade materials and six sampling
+rounds, by single-pass read, with bidirectional reads on the subset whose assignment is
+ambiguous.
 
-**(b) SORAS and SBC permit administration — RM300.00**
-Administration fees for the Sarawak Biodiversity Council permit variation covering the project
-title, scope, personnel and institutions, and for permit renewal. Research in Sarawak cannot
-proceed without a valid permit, so this is a precondition of the fieldwork.
+**(b) SORAS application and SBC permit fees — RM500.00**
+Fees for the Sarawak Online Research Application System submission and for the Sarawak
+Biodiversity Council permit variation covering the project title, scope, personnel and
+institutions, together with permit renewal. Research may not be conducted in Sarawak without a
+valid permit, so this is a precondition of all fieldwork rather than an optional cost.
 
 **(c) Conference registration fee — RM500.00**
-Registration for one indexed national conference in Year 2, supporting the guideline requirement
-of two indexed conference or journal outputs.
+Registration for one indexed conference in Year 2, supporting the guideline requirement of two
+indexed conference or journal outputs. Associated travel, accommodation and subsistence are
+claimed under VOT 21000, giving a total conference provision of RM2,000.00 across the two vots.
 
-- Year 1: RM1,000.00 sequencing + RM300.00 permits = **RM1,300.00**
+- Year 1: RM800.00 sequencing + RM500.00 SORAS and permit fees = **RM1,300.00**
 - Year 2: RM1,200.00 sequencing + RM500.00 registration = **RM1,700.00**
 - **Total: RM3,000.00** (at the RM3,000 ceiling for Science, Engineering and Technology)
 
 Note. Journal article processing charges are **not** requested, as the ceiling is committed to
 sequencing, permits and conference registration. Non-APC or society journals are therefore
 targeted for both indexed outputs.
-
----
 
 ## 6. VOT 35000 — Accessories and Equipment — **RM3,000.00**
 
@@ -209,7 +219,9 @@ property of UTS, and is entered in the project asset inventory.
 - VOT 23000 not used — restricted to USRRG and UFSRRG.
 - No utilities, books, stationery or journal subscriptions appear in VOT 26000.
 - Rental sits in VOT 24000, not VOT 35000.
-- Subsistence is claimed only for conference paper presentation.
+- Subsistence is claimed only for conference paper presentation. Conference cost is split
+  across VOT 21000 (travel, accommodation, subsistence) and VOT 29000 (registration fee), per
+  the guideline's own allocation of registration fees to VOT 29000.
 - Two indexed conference or journal outputs are committed, as the guideline requires for
   Science, Engineering and Technology.
 - Virement may be exercised only once during the project and requires the approval of the

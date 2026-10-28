@@ -69,14 +69,10 @@ cementitious substrates [16,17,18].
 **Co-Researchers (UTS)**
 - **Assoc. Prof. Dr. Kee Keh Kim** — design, fabrication and calibration of the portable
   air-quality monitoring nodes, extending a sensor configuration already validated in his
-  existing deployed work; facade material inventory and exposure mapping across the sampled
-  buildings.
-- **Ts. Dr. Nurhayatie Sajali** — microbiological protocol design, culture-based isolation and
-  quantification, biosafety and contamination-control oversight at the UTS laboratory.
-- **Prof. Mohammad Shahril Osman** — data architecture, cloud database and public dashboard
-  development for the air-quality context workstream.
-- **Mohd Zahid Abidin** — institutional governance, policy alignment, and translation of
-  findings into campus maintenance and reporting practice.
+  existing deployed work; cloud database and public dashboard; facade material inventory and
+  exposure mapping across the sampled buildings.
+- **Ts. Dr. Nurhayatie Sajali** — microbiological protocol design, field sampling and plating
+  protocol, biosafety and contamination-control oversight at the UTS laboratory.
 
 **Lead Researcher (SRDC-TROPI)**
 **Dr. Sharon Lau Yu Ling** — molecular workstream lead: controlled sub-culturing and
@@ -88,8 +84,9 @@ bioinformatic analysis.
 - **Ms. Jacquelina Avethia Jack** — molecular protocol execution and laboratory consumables
   management.
 
-*Note: Schedule A A5 of the signed MoA lists Prof. Dr. Hii Siew Ling in place of Prof.
-Mohammad Shahril Osman and Mohd Zahid Abidin. The addendum must amend A5 to match this list.*
+*Note: Schedule A A5 of the signed MoA lists Assoc. Prof. Dr. Kee Keh Kim, Prof. Dr. Hii Siew
+Ling and Ts. Dr. Nurhayatie Sajali. The addendum therefore need only delete Prof. Dr. Hii Siew Ling;
+the remaining two names already match this list.*
 
 ## 8. Executive Summary
 
@@ -387,8 +384,10 @@ triple-packaged containers under cold-chain conditions. SRDC-TROPI incubates all
 enumerates growth, with colony counts expressed as **colony-forming units per unit area** for
 surfaces and per cubic metre for settle plates. This quantitative dataset across all 216
 composited samples is the statistical backbone of H1 to H4. Colonies are separated by morphotype
-and purified, and a curated set of up to **100 unique isolates** spanning the morphotype range,
-buildings, materials and seasons is selected for identification. SRDC-TROPI performs DNA
+and purified, and a curated set of up to **60 unique isolates** spanning the morphotype range,
+buildings, materials and seasons is selected for identification. Each isolate receives a
+single-pass read, with bidirectional reads on the subset whose assignment is ambiguous, within
+the 80 sequencing reactions budgeted. SRDC-TROPI performs DNA
 extraction and PCR amplification of the **internal transcribed spacer (ITS) region** using
 fungal-specific primers, and forwards the amplicons to an accredited commercial provider for
 Sanger sequencing, funded from the UTS Matching Grant under VOT 29000. Isolates are maintained
@@ -591,12 +590,12 @@ Feb 2029.**
 | Vot | Description | Y1 (RM) | Y2 (RM) | Total |
 | --- | --- | --- | --- | --- |
 | 11000 | Salary and wages — undergraduate research assistant at RM7.00/hour, max 4 hours/day = RM500.00/month, 3 active months per year across the six sampling rounds and the node build | 1,500 | 1,500 | 3,000 |
-| 21000 | Travelling and transportation — cold-chain consignments of media, swabs and inoculated plates between UTS Sibu and SRDC-TROPI (RM150 x 2 directions x 6 rounds = RM1,800); inbound delivery of research materials and local movement during node installation (RM300); conference presentation travel and subsistence, Year 2 (RM900) | 1,400 | 1,600 | 3,000 |
+| 21000 | Travelling and transportation — cold-chain consignments between UTS Sibu and SRDC-TROPI, 6 return legs with media batched across rounds, 9 legs at RM150 (RM1,350); inbound delivery of research materials (RM150); conference presentation return flight, accommodation and subsistence, Year 2 (RM1,500) | 1,150 | 1,850 | 3,000 |
 | 24000 | Rental — reference-grade air quality analyser for node calibration, RM600/week x 2 campaigns | 1,200 | 0 | 1,200 |
 | 26000 | Research materials and supplies — **monitoring node development RM8,040** (multi-parameter air-quality modules, T/RH sensors, MQ-series gas sets, microcontrollers, LoRa gateway, IP65 enclosures, power and solar, PCB and prototyping); **field sampling consumables RM2,560** (sterile templates, transport coolers and gel packs, PPE, ethanol and field consumables); **culture consumable contingency RM1,200** | 9,300 | 2,500 | 11,800 |
-| 29000 | Professional services — Sanger sequencing of ITS amplicons, 88 reactions at RM25.00 quoted (RM2,200); SORAS and SBC permit variation and renewal administration (RM300); conference registration, Year 2 (RM500) | 1,300 | 1,700 | 3,000 |
+| 29000 | Professional services — Sanger sequencing of ITS amplicons, 80 reactions at RM25.00 quoted (RM2,000); SORAS application and SBC permit variation and renewal fees (RM500); conference registration, Year 2 (RM500) | 1,300 | 1,700 | 3,000 |
 | 35000 | Accessories and equipment — outdoor-rated public air-quality display panel (RM2,200) with weatherproof housing, mounting and installation hardware (RM800) | 3,000 | 0 | 3,000 |
-| | **TOTAL** | **17,700** | **7,300** | **25,000** |
+| | **TOTAL** | **17,450** | **7,550** | **25,000** |
 
 **Notes for the assessor.**
 - **Cloud hosting and the data plan are not requested from the grant**, as VOT 26000 does not
@@ -632,7 +631,7 @@ Feb 2029.**
 | **Preparatory** | before 1 Mar 2027 | SORAS variation and renewal of SBC Permit submitted; MoA Clause 21 addendum executed (title, Commencement Date and term, Schedule A A5 team, Schedule B Part 1 budget); SRDC-TROPI written confirmation re-issued against revised dates; consumable supply split confirmed with SRDC-TROPI; supplier quotations refreshed. No sampling, biological transfer or expenditure before the Commencement Date, per MoA Clause 5.2. |
 | **Phase 1** | Mar – May 2027 | Four buildings stratified; 36 fixed sampling points established, georeferenced and photographed; facade material and shading inventory complete; monitoring hardware procured and fabrication begun; culture and contamination-control protocols agreed with SRDC-TROPI and validated. |
 | **Phase 2** | Apr 2027 – Jul 2028 | **R1 Apr 2027, R2 Jul 2027, R3 Oct 2027, R4 Jan 2028, R5 Apr 2028, R6 Jul 2028**, plus haze-triggered rounds; monitoring devices calibrated against the rented reference instrument and installed, cloud platform and public dashboard live and display unit installed by **Sep 2027**; covariate and algal cover records complete each round. |
-| **Phase 3** | Apr 2027 – Oct 2028 | Rolling transport, incubation, enumeration, morphotyping, isolation, DNA extraction, PCR and Sanger identification, one round at a time; **interim community profile at twelve months (Apr 2028)**; blanks processed and reported alongside each batch; curated 100-isolate set complete and sequences assigned by **Oct 2028**. |
+| **Phase 3** | Apr 2027 – Oct 2028 | Rolling transport, incubation, enumeration, morphotyping, isolation, DNA extraction, PCR and Sanger identification, one round at a time; **interim community profile at twelve months (Apr 2028)**; blanks processed and reported alongside each batch; curated 60-isolate set complete and sequences assigned by **Oct 2028**. |
 | **Phase 4** | Aug 2028 – Feb 2029 | Full seasonal and year-on-year analysis; **first indexed manuscript submitted Oct 2028**; exterior material selection and maintenance guidance issued; campus air-quality reporting protocol issued; isolate collection curated and sequences deposited; **second indexed manuscript submitted Jan 2029**; final project report and grant closure via URCMS by **28 Feb 2029**. |
 
 **Closure discipline.** The award is fixed at 24 months with no extension. Sampling therefore

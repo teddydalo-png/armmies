@@ -297,7 +297,7 @@ def flow():
     y -= bh + 20
     arrow(cx, y + 20, cx, y + 4)
     box(cx - colw / 2, y - bh, colw, bh,
-        ["Morphotype, purify, select isolates", "Curated 100-isolate set spanning",
+        ["Morphotype, purify, select isolates", "Curated 60-isolate set spanning",
          "morphotypes, buildings, materials,", "seasons; collection maintained"])
     y -= bh + 20
     arrow(cx, y + 20, cx, y + 4)
@@ -310,7 +310,7 @@ def flow():
     y -= 6
     arrow(cx, y + 14, cx, y - 2)
     box(cx - colw / 2, y - 30, colw, 30,
-        ["Sanger sequencing of amplicons", "~100 reactions, funded VOT 29000"], fill=HexColor("#f4f0f7"))
+        ["Sanger sequencing of amplicons", "80 reactions, funded VOT 29000"], fill=HexColor("#f4f0f7"))
     y -= 30 + 22
 
     lane("Joint analysis and outputs", y + 18)
