@@ -669,10 +669,10 @@ quotations, with the exception of the Sanger sequencing rate, which is quoted.
 | 11000 | Salary and Wages | **Y1 (RM 1,500):** Undergraduate research assistant allowance (RM 7.00/hour x 4 hours/day x approx. 18 days = RM 500.00/month x 3 active months) for sampling rounds R1 to R3 and monitoring node assembly. **Y2 (RM 1,500):** RA allowance (RM 500.00/month x 3 active months) for rounds R4 to R6, plate inoculation and cold-chain packing. Rate complies with Guideline Section 7(a); total within the RM 3,000 ceiling. | 1,500.00 | 1,500.00 | 3,000.00 |
 | 21000 | Travel and Transport | **Y1 (RM 850):** Cold-chain transport of swabs, media and inoculated plates between UTS Sibu and SRDC-TROPI, Kota Samarahan (5 legs x RM 150.00 = RM 750.00); inbound delivery of sensor modules and field consumables (2 x RM 50.00 = RM 100.00). **Y2 (RM 2,150):** Cold-chain transport (4 legs x RM 150.00 = RM 600.00); delivery (RM 50.00); attendance at one national conference to present project findings (RM 1,500.00 covering return airfare RM 700.00, accommodation RM 250.00/night x 3 nights, ground transport RM 50.00). (Note: Conference registration fee is claimed under VOT 29000. Local Sibu fieldwork travel excluded, as all four sampled buildings are on campus. Within RM 3,000 SET ceiling, Guideline Section 7(b).) | 850.00 | 2,150.00 | 3,000.00 |
 | 24000 | Rental | **Y1 (RM 1,200):** Rental of a reference-grade air quality analyser for co-location calibration of the monitoring nodes (RM 600.00/week x 2 weeks): one pre-deployment campaign and one post-installation verification. **Y2 (RM 0):** No further rental required. (Note: Rental rather than purchase, as the instrument is required for two short campaigns only. Placed in VOT 24000 per Guideline Section 7(c).) | 1,200.00 | 0.00 | 1,200.00 |
-| 26000 | Research Materials and Supplies | **Y1 (RM 9,300):** Portable air-quality monitoring nodes, four units plus spares (RM 8,040), comprising the sensing subsystem for particulates, gases, temperature and humidity (RM 3,920); control and communications, including microcontrollers and gateway (RM 1,440); enclosure, mounting and power, including solar and battery (RM 2,080); and fabrication and prototyping consumables (RM 600). Field sampling consumables (RM 1,260) comprising sterile sampling templates (RM 600), cold-chain coolers and gel packs (RM 360), and PPE for rounds R1 to R3 (RM 300). **Y2 (RM 2,500):** Additional cold-chain coolers (RM 360); PPE and field consumables for rounds R4 to R6 (RM 400); ethanol, sample bags, labels and markers (RM 540); culture consumable contingency (RM 1,200) for SDA and PDA media, sterile swabs and Petri dishes. (Note: Node configuration follows a build already validated in deployed service, removing design risk; final component selection and procurement follow UTS Procurement Procedure. Culture media and swabs are supplied by SRDC-TROPI as in-kind matched expenditure. Sulphur dioxide sensing excluded.) | 9,300.00 | 2,500.00 | 11,800.00 |
+| 26000 | Research Materials and Supplies | **Y1 (RM 9,900):** Portable air-quality monitoring nodes, four units plus spares (RM 8,040), comprising the sensing subsystem for particulates, gases, temperature and humidity (RM 3,920); control and communications, including microcontrollers and gateway (RM 1,440); enclosure, mounting and power, including solar and battery (RM 2,080); and fabrication and prototyping consumables (RM 600). Field sampling and culture consumables (RM 1,860) comprising sterile sampling templates (RM 600), cold-chain coolers and gel packs (RM 360), PPE for rounds R1 to R3 (RM 300), and culture consumable contingency for rounds R1 to R3 (RM 600) covering SDA and PDA media, sterile swabs, Petri dishes and control plates. **Y2 (RM 1,900):** Additional cold-chain coolers (RM 360); PPE and field consumables for rounds R4 to R6 (RM 400); ethanol, sample bags, labels and markers (RM 540); culture consumable contingency for rounds R4 to R6 (RM 600). (Note: Node configuration follows a build already validated in deployed service, removing design risk; final component selection and procurement follow UTS Procurement Procedure. Culture media and swabs are supplied by SRDC-TROPI as in-kind matched expenditure. Sulphur dioxide sensing excluded.) | 9,900.00 | 1,900.00 | 11,800.00 |
 | 29000 | Professional Services | **Y1 (RM 1,300):** Sanger sequencing of ITS amplicons, 32 reactions at RM 25.00 (RM 800.00) for isolates from rounds R1 to R3; SORAS application and Sarawak Biodiversity Council permit fees (RM 500.00). **Y2 (RM 1,700):** Sanger sequencing, 48 reactions at RM 25.00 (RM 1,200.00) for isolates from rounds R4 to R6; registration fee for one national conference (RM 500.00). (Note: DNA extraction and PCR are performed by SRDC-TROPI as an in-kind matched contribution, so only the sequencing service is charged to this grant. Journal article processing charges excluded; non-APC journals targeted. Within RM 3,000 SET ceiling, Guideline Section 7(f).) | 1,300.00 | 1,700.00 | 3,000.00 |
 | 35000 | Accessories and Small Appliances | **Y1 (RM 3,000):** Outdoor-rated display panel for live campus air-quality readings at a high-traffic location (RM 2,200.00); weatherproof housing, mounting bracket and installation hardware (RM 800.00). **Y2 (RM 0):** No accessories required. (Note: Cloud hosting and data plan excluded as utilities, provided instead as a UTS in-kind contribution. Assets remain UTS property. Total is 12% of grant, within the 40% ceiling, Guideline Section 7(g).) | 3,000.00 | 0.00 | 3,000.00 |
-| | **TOTAL** | | **17,150.00** | **7,850.00** | **25,000.00** |
+| | **TOTAL** | | **17,750.00** | **7,250.00** | **25,000.00** |
 
 VOT 23000 and VOT 28000 are not used. Virement may be exercised only once during the project and
 requires the approval of the Director, Centre for Research and Development.
@@ -766,15 +766,17 @@ transport coolers with gel packs at RM180.00 each, giving RM720.00; personal pro
 comprising gloves, masks and disposable coveralls for six rounds and three personnel at RM700.00;
 and ethanol, sample bags, labels, markers and field consumables at RM540.00.
 
-A culture consumable contingency accounts for RM1,200.00, covering Sabouraud dextrose agar and
-potato dextrose agar media, sterile swabs and Petri dishes. SRDC-TROPI supplies these items from
-its matched research expenditure, so this allocation is a contingency only, covering the control
-plates that the contamination control protocol requires, repeat sampling after a failed batch,
-and any delay in partner supply. It ensures that the sampling programme is not interrupted and
-does not duplicate the partner's provision.
+A culture consumable contingency accounts for RM1,200.00 in total, split as RM600.00 in each
+project year so that provision is in place from the first sampling round. It covers Sabouraud
+dextrose agar and potato dextrose agar media, sterile swabs and Petri dishes. SRDC-TROPI supplies
+these items from its matched research expenditure, so this allocation is a contingency only,
+covering the control plates that the contamination control protocol requires, repeat sampling
+after a failed batch, and any delay in partner supply. It ensures that the sampling programme is
+not interrupted and does not duplicate the partner's provision.
 
-Year 1 totals RM9,300.00 for node development and initial consumables, and Year 2 totals
-RM2,500.00 for consumables, spares and node maintenance parts.
+Year 1 totals RM9,900.00 for node development, field consumables and the first-year culture
+contingency, and Year 2 totals RM1,900.00 for consumables, spares and the second-year culture
+contingency.
 
 The node development is the largest single component because the project commits to continuous
 campus air-quality and microclimate measurement as environmental context for the surface
@@ -839,7 +841,7 @@ conference or journal outputs are committed, as the guideline requires. Virement
 only once during the project and requires the approval of the Director, Centre for Research and
 Development.
 
-Year 1 totals RM17,150.00 and Year 2 totals RM7,850.00, giving RM25,000.00 in all.
+Year 1 totals RM17,750.00 and Year 2 totals RM7,250.00, giving RM25,000.00 in all.
 
 ## Appendix B. Attachments
 
