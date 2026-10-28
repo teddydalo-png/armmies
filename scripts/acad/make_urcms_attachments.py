@@ -380,7 +380,142 @@ def schedule():
     c.showPage(); c.save()
 
 
+BUDGET = [
+    ("11000", "Salary and Wages",
+     "<b>Y1 (RM1,500):</b> Undergraduate research assistant allowance at RM7.00/hour, max 4 hours/day "
+     "(RM28.00/day), approx. 18 working days per active month = RM500.00/month for 3 active months, timed to "
+     "sampling rounds R1-R3 and monitoring node assembly. <b>Y2 (RM1,500):</b> Same rate, 3 active months, for "
+     "rounds R4-R6, plate inoculation and cold-chain packing. Each round requires swabbing 36 fixed points across "
+     "4 buildings and 4 facade orientations, on-site inoculation of agar plates, recording of covariates and algal "
+     "cover, and packing for transfer to SRDC-TROPI: approx. 2 field days plus 1 preparation day per round. The "
+     "allocation purchases approx. 107 assistant-days. Within the RM3,000 ceiling for temporary and contract "
+     "personnel, Guideline Section 7(a).", "1,500.00", "1,500.00", "3,000.00"),
+    ("21000", "Travel and Transport",
+     "<b>Y1 (RM850):</b> Cold-chain transport of biological materials, UTS Sibu to SRDC-TROPI Kota Samarahan "
+     "(approx. 300 km): 2 inbound consignments of prepared swabs and media and 3 return consignments of inoculated "
+     "plates, 5 legs at RM150.00 = RM750.00; inbound delivery of sensor modules, enclosures and field consumables, "
+     "2 deliveries at RM50.00 = RM100.00. <b>Y2 (RM2,150):</b> 1 inbound and 3 return consignments, 4 legs at "
+     "RM150.00 = RM600.00; 1 delivery at RM50.00; attendance at one indexed national conference to present project "
+     "findings (RM1,500.00) comprising return airfare RM700.00, accommodation RM250.00/night x 3 nights = RM750.00, "
+     "ground transport RM50.00. Media are batched across rounds inbound, while returns follow each round "
+     "individually because the cultures are live and require sealed triple packaging under cold chain, so ordinary "
+     "post is not usable. Conference registration is claimed separately under VOT 29000 as the guideline directs. "
+     "Subsistence claimed only for paper presentation. Local Sibu fieldwork travel excluded, as all four sampled "
+     "buildings are on the UTS campus. Within the RM3,000 SET ceiling, Guideline Section 7(b).",
+     "850.00", "2,150.00", "3,000.00"),
+    ("24000", "Rental",
+     "<b>Y1 (RM1,200):</b> Rental of a reference-grade air quality analyser for co-location calibration of the "
+     "low-cost monitoring nodes under Sibu field conditions, RM600.00/week x 2 weeks: one pre-deployment campaign "
+     "and one post-installation verification. Low-cost optical particulate sensors are subject to hygroscopic bias "
+     "at the high relative humidity prevailing on this campus and metal oxide gas sensors drift; co-located "
+     "reference measurement is what allows a correction to be derived and the reported values to be defensible. "
+     "Rental rather than purchase is appropriate for two short campaigns. Placed in VOT 24000 rather than VOT 35000 "
+     "per Guideline Section 7(c). <b>Y2 (RM0):</b> No further rental required.",
+     "1,200.00", "0.00", "1,200.00"),
+    ("26000", "Research Materials and Supplies",
+     "<b>Y1 (RM9,300):</b> Monitoring node development (RM8,040) for 4 campus nodes plus spares, in a configuration "
+     "already validated in deployed service by the co-researcher under existing work, removing design risk: 4 "
+     "multi-parameter air-quality modules measuring CO2, PM2.5, PM10, temperature and humidity (RM650.00 ea, "
+     "RM2,600.00); 8 discrete temperature/humidity sensors as redundant per-node reference (RM25.00 ea, RM200.00); "
+     "4 metal oxide gas sensor sets for CO, CO2, O3, NH3, NOx (RM280.00/set, RM1,120.00); 6 microcontroller boards "
+     "with breakout (RM90.00 ea, RM540.00); 1 LoRa gateway and transmitter set (RM900.00); 4 IP65 ventilated "
+     "enclosures with mounting (RM220.00 ea, RM880.00); 4 sets power supply, solar panel, battery, cabling and "
+     "connectors (RM300.00/set, RM1,200.00); PCB fabrication, prototyping and soldering consumables (RM600.00). "
+     "Field sampling consumables (RM1,260): 10 stainless sterile sampling templates 10 x 10 cm (RM600.00), 2 "
+     "cold-chain coolers with gel packs (RM360.00), PPE and field consumables for R1-R3 (RM300.00). "
+     "<b>Y2 (RM2,500):</b> 2 further coolers (RM360.00); PPE and field consumables for R4-R6 (RM400.00); ethanol, "
+     "sample bags, labels and markers (RM540.00); culture consumable contingency (RM1,200.00) for SDA and PDA media, "
+     "sterile swabs and Petri dishes. SRDC-TROPI supplies culture media and swabs from its matched expenditure, so "
+     "the contingency covers only control plates required by the contamination-control protocol, repeat sampling "
+     "after a failed batch, and any delay in partner supply; it does not duplicate the partner's provision. Sulphur "
+     "dioxide sensing excluded, as it bears on no mechanism this project tests. Guideline Section 7(d).",
+     "9,300.00", "2,500.00", "11,800.00"),
+    ("29000", "Professional Services",
+     "<b>Y1 (RM1,300):</b> Sanger sequencing of ITS amplicons, 32 reactions at the quoted rate of RM25.00/reaction "
+     "(RM800.00) for isolates from rounds R1-R3, inclusive of sample QC by gel electrophoresis and one free re-run "
+     "where a result is unsatisfactory; SORAS application and Sarawak Biodiversity Council permit fees covering the "
+     "project, its scope, its personnel and the participating institutions (RM500.00). <b>Y2 (RM1,700):</b> Sanger "
+     "sequencing, 48 reactions at RM25.00 (RM1,200.00) for isolates from rounds R4-R6; registration fee for one "
+     "indexed national conference (RM500.00). The 80 reactions cover a curated set of up to 60 isolates by "
+     "single-pass read, with bidirectional reads where assignment is ambiguous. DNA extraction and PCR amplification "
+     "are performed by SRDC-TROPI as an in-kind matched contribution, so only the sequencing service is charged to "
+     "this grant. Research may not be conducted in Sarawak without a valid permit, so the permit fee is a "
+     "precondition of all fieldwork. Journal article processing charges excluded; non-APC journals targeted for both "
+     "indexed outputs. Within the RM3,000 SET ceiling, Guideline Section 7(f).",
+     "1,300.00", "1,700.00", "3,000.00"),
+    ("35000", "Accessories and Small Appliances",
+     "<b>Y1 (RM3,000):</b> Outdoor-rated display panel presenting live readings and the current campus air-quality "
+     "classification at a high-traffic campus location (RM2,200.00); weatherproof housing, mounting bracket and "
+     "installation hardware (RM800.00). The display is a deliverable of the collaboration agreement between UTS and "
+     "SRDC and is the pathway by which monitoring becomes visible to building occupants and supports institutional "
+     "environmental reporting. Cloud hosting and the data plan are excluded, as the guideline does not support "
+     "utilities or subscriptions under VOT 26000 and VOT 23000 is restricted to USRRG and UFSRRG; these are provided "
+     "as a UTS in-kind contribution through institutional IT infrastructure. Procured following UTS Procurement "
+     "Procedure; assets remain UTS property and are entered in the project asset inventory. Total is 12% of the "
+     "grant, within the 40% ceiling, Guideline Section 7(g). <b>Y2 (RM0):</b> No accessories required.",
+     "3,000.00", "0.00", "3,000.00"),
+]
+
+
+def budget():
+    from reportlab.platypus import SimpleDocTemplate, Table, TableStyle, Paragraph, Spacer
+    from reportlab.lib.styles import ParagraphStyle
+    from reportlab.lib.units import mm
+    from reportlab.lib import colors as rc
+
+    w, h = landscape(A4)
+    doc = SimpleDocTemplate(str(OUT / "budget-table.pdf"), pagesize=(w, h),
+                            leftMargin=12 * mm, rightMargin=12 * mm,
+                            topMargin=12 * mm, bottomMargin=12 * mm,
+                            title="Proposed Budget", author="Dr Armstrong Ighodalo Omoregie")
+    body = ParagraphStyle("body", fontName="Helvetica", fontSize=6.2, leading=7.6, textColor=INK)
+    head = ParagraphStyle("head", fontName="Helvetica-Bold", fontSize=6.8, leading=8.4, textColor=white)
+    cat = ParagraphStyle("cat", fontName="Helvetica-Bold", fontSize=6.4, leading=8, textColor=INK)
+    num = ParagraphStyle("num", fontName="Helvetica", fontSize=6.6, leading=8,
+                         alignment=2, textColor=INK)
+    title = ParagraphStyle("title", fontName="Helvetica-Bold", fontSize=11, leading=14, textColor=INK)
+    sub = ParagraphStyle("sub", fontName="Helvetica", fontSize=7, leading=9, textColor=MUTE)
+
+    rows = [[Paragraph(x, head) for x in
+             ["VOT", "Category", "Justification and detailed breakdown (Year 1 and Year 2)",
+              "Year 1 (RM)", "Year 2 (RM)", "Total (RM)"]]]
+    for v, c, j, y1, y2, tot in BUDGET:
+        rows.append([Paragraph(v, cat), Paragraph(c, cat), Paragraph(j, body),
+                     Paragraph(y1, num), Paragraph(y2, num), Paragraph(tot, num)])
+    rows.append([Paragraph("", cat), Paragraph("TOTAL", cat), Paragraph("", body),
+                 Paragraph("<b>17,150.00</b>", num), Paragraph("<b>7,850.00</b>", num),
+                 Paragraph("<b>25,000.00</b>", num)])
+
+    colw = [14 * mm, 28 * mm, 157 * mm, 20 * mm, 20 * mm, 20 * mm]
+    tbl = Table(rows, colWidths=colw, repeatRows=1)
+    tbl.setStyle(TableStyle([
+        ("BACKGROUND", (0, 0), (-1, 0), BAR),
+        ("VALIGN", (0, 0), (-1, -1), "TOP"),
+        ("GRID", (0, 0), (-1, -1), 0.4, RULE),
+        ("BACKGROUND", (0, -1), (-1, -1), BAND),
+        ("LEFTPADDING", (0, 0), (-1, -1), 3),
+        ("RIGHTPADDING", (0, 0), (-1, -1), 3),
+        ("TOPPADDING", (0, 0), (-1, -1), 3),
+        ("BOTTOMPADDING", (0, 0), (-1, -1), 3),
+    ]))
+
+    story = [
+        Paragraph("PROPOSED BUDGET", title),
+        Paragraph("Fungal and microbial colonisation of tropical educational building exteriors: "
+                  "molecular characterisation and campus air-quality context at UTS Sibu", sub),
+        Paragraph("Dr Armstrong Ighodalo Omoregie | BERI, School of Built Environment, UTS | "
+                  "UTS Matching Grant, Cycle 1/2027 | Year 1: Mar 2027 to Feb 2028, "
+                  "Year 2: Mar 2028 to Feb 2029", sub),
+        Spacer(1, 6), tbl, Spacer(1, 6),
+        Paragraph("VOT 23000 and VOT 28000 are not used. Virement may be exercised only once during the "
+                  "project and requires the approval of the Director, Centre for Research and Development. "
+                  "Supplier unit costs are planning figures pending current quotations, except the Sanger "
+                  "sequencing rate of RM25.00 per reaction, which is quoted.", sub),
+    ]
+    doc.build(story)
+
+
 if __name__ == "__main__":
-    gantt(); milestones(); flow(); schedule()
+    gantt(); milestones(); flow(); schedule(); budget()
     for f in sorted(OUT.glob("*.pdf")):
         print(f"{f.name:22s} {f.stat().st_size/1024:7.1f} KB")
